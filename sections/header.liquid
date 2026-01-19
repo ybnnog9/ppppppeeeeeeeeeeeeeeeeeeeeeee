@@ -1,0 +1,21 @@
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-logo" href="{{ routes.root_url }}">{{ settings.brand_name | default: shop.name }}</a>
+    <nav class="site-nav" aria-label="Navegación principal">
+      {% for link in linklists.main-menu.links %}
+        <a href="{{ link.url }}">{{ link.title }}</a>
+      {% endfor %}
+    </nav>
+    <a class="button button--ghost" href="{{ routes.cart_url }}">
+      {% render 'icon-cart' %}
+      <span>Carrito ({{ cart.item_count }})</span>
+    </a>
+  </div>
+</header>
+
+{% schema %}
+{
+  "name": "Encabezado",
+  "settings": []
+}
+{% endschema %}

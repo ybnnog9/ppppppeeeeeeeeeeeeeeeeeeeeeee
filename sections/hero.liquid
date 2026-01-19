@@ -1,0 +1,64 @@
+<section class="section">
+  <div class="container hero">
+    <div>
+      <span class="badge">{{ section.settings.badge }}</span>
+      <h1 class="hero__title">{{ section.settings.heading }}</h1>
+      <p class="hero__subtitle">{{ section.settings.subheading }}</p>
+      <a class="button" href="{{ section.settings.primary_link }}">{{ section.settings.primary_label }}</a>
+    </div>
+    <div>
+      {% if section.settings.image != blank %}
+        <img src="{{ section.settings.image | image_url: width: 800 }}" alt="{{ section.settings.heading }}">
+      {% else %}
+        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80" alt="Inspiración">
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Hero",
+  "settings": [
+    {
+      "type": "text",
+      "id": "badge",
+      "label": "Etiqueta",
+      "default": "Colección destacada"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Título",
+      "default": "Eleva tu marca con un diseño impecable"
+    },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Subtítulo",
+      "default": "Una experiencia de compra premium con navegación clara, contenido editorial y llamados a la acción efectivos."
+    },
+    {
+      "type": "text",
+      "id": "primary_label",
+      "label": "Texto del botón",
+      "default": "Explorar catálogo"
+    },
+    {
+      "type": "url",
+      "id": "primary_link",
+      "label": "Enlace del botón"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Imagen"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero"
+    }
+  ]
+}
+{% endschema %}

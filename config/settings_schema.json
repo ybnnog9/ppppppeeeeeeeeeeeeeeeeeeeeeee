@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Configuración general",
+    "settings": [
+      {
+        "type": "text",
+        "id": "brand_name",
+        "label": "Nombre de la marca",
+        "default": "Tematica"
+      },
+      {
+        "type": "textarea",
+        "id": "footer_tagline",
+        "label": "Descripción del pie",
+        "default": "Diseño editorial, experiencia premium y conversiones medibles."
+      },
+      {
+        "type": "textarea",
+        "id": "footer_contact",
+        "label": "Información de contacto",
+        "default": "hola@tematica.com\n+34 600 000 000\nMadrid, España"
+      }
+    ]
+  }
+]
