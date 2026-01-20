@@ -6,10 +6,13 @@
         <a href="{{ link.url }}">{{ link.title }}</a>
       {% endfor %}
     </nav>
-    <a class="button button--ghost" href="{{ routes.cart_url }}">
-      {% render 'icon-cart' %}
-      <span>Carrito ({{ cart.item_count }})</span>
-    </a>
+    <div class="site-header__actions">
+      <a class="button" href="{{ routes.all_products_collection_url }}">Shop</a>
+      <a class="button button--ghost" href="{{ routes.cart_url }}">
+        {% render 'icon-cart' %}
+        <span>({{ cart.item_count }})</span>
+      </a>
+    </div>
   </div>
 </header>
 

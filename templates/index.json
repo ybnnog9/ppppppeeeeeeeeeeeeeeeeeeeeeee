@@ -3,6 +3,9 @@
     "hero": {
       "type": "hero"
     },
+    "features": {
+      "type": "features-grid"
+    },
     "featured": {
       "type": "featured-collection"
     },
@@ -13,5 +16,5 @@
       "type": "newsletter"
     }
   },
-  "order": ["hero", "featured", "story", "newsletter"]
+  "order": ["hero", "features", "featured", "story", "newsletter"]
 }
