@@ -14,14 +14,6 @@
       "disabled": true,
       "settings": {}
     },
-    "rich_text_zfFpjT": {
-      "type": "rich-text",
-      "name": "Texto enriquecido",
-      "settings": {
-        "heading": "Tecnología que cuida lo que te mueve.",
-        "content": "<p>Tu vehículo no es solo un medio de transporte: es tiempo, inversión y tranquilidad. Por eso DriveGuard AI combina una experiencia moderna de conducción con una capa de seguridad inteligente. Una pantalla conectada para CarPlay/Android Auto y un sistema de cámaras pensado para registrar lo importante y ayudarte a reaccionar a tiempo.</p><p>La diferencia no está solo en “grabar”, sino en <strong>hacerlo útil</strong>: información clara, acceso rápido y un enfoque diseñado para el mundo real (tráfico, estacionamientos, imprevistos).</p><p>El resultado es simple: más control, menos estrés y una conducción más cómoda, con la confianza de que tu vehículo está acompañado por tecnología que trabaja contigo.<strong><br/></strong>{{ blog.title }}</p>"
-      }
-    },
     "features_grid_MGEhFD": {
       "type": "features-grid",
       "blocks": {
@@ -88,11 +80,19 @@
         "heading": "Tecnología que protege en todo momento",
         "subheading": "Arquitectura inteligente, alertas instantáneas y soporte global para mantener tu vehículo seguro."
       }
+    },
+    "rich_text_zfFpjT": {
+      "type": "rich-text",
+      "name": "Texto enriquecido",
+      "settings": {
+        "heading": "Tecnología que cuida lo que te mueve.",
+        "content": "<p><strong>Tu vehículo no es solo un medio de transporte: es tiempo, inversión y tranquilidad. Por eso DriveGuard AI combina una experiencia moderna de conducción con una capa de seguridad inteligente. Una pantalla conectada para CarPlay/Android Auto y un sistema de cámaras pensado para registrar lo importante y ayudarte a reaccionar a tiempo.</strong></p><p><strong>La diferencia no está solo en “grabar”, sino en hacerlo útil: información clara, acceso rápido y un enfoque diseñado para el mundo real (tráfico, estacionamientos, imprevistos).</strong></p><p><strong>El resultado es simple: más control, menos estrés y una conducción más cómoda, con la confianza de que tu vehículo está acompañado por tecnología que trabaja contigo.<br/></strong></p>"
+      }
     }
   },
   "order": [
     "main",
-    "rich_text_zfFpjT",
-    "features_grid_MGEhFD"
+    "features_grid_MGEhFD",
+    "rich_text_zfFpjT"
   ]
 }
