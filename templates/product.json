@@ -1,11 +1,48 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
-      "type": "main-product"
+      "type": "main-product",
+      "settings": {
+        "badge": "Nuevo lanzamiento",
+        "eyebrow": "Seguridad inteligente",
+        "subheading": "Monitoriza tu vehículo con IA avanzada, detección de impactos y alertas instantáneas desde la app móvil.",
+        "primary_cta": "Comprar ahora",
+        "shipping_text": "Envío gratis en 24-72h + tracking en tiempo real.",
+        "guarantee_text": "Garantía premium de 24 meses y soporte 24/7."
+      }
     },
     "gallery": {
-      "type": "image-gallery"
+      "type": "image-gallery",
+      "blocks": {
+        "image_9CnDQC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/S692957456f54440da0ff26ea4d8aac3cv.webp",
+            "alt": "Imagen del producto"
+          }
+        }
+      },
+      "block_order": [
+        "image_9CnDQC"
+      ],
+      "settings": {
+        "badge": "Galería",
+        "heading": "Detalles en alta definición",
+        "subheading": "Añade tus imágenes del producto para mostrar cada ángulo y característica clave."
+      }
     }
   },
-  "order": ["main", "gallery"]
+  "order": [
+    "main",
+    "gallery"
+  ]
 }
