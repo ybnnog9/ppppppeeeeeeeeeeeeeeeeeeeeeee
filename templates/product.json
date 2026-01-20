@@ -11,6 +11,42 @@
   "sections": {
     "main": {
       "type": "main-product",
+      "blocks": {
+        "highlight_E6t9KQ": {
+          "type": "highlight",
+          "settings": {
+            "title": "IA predictiva",
+            "text": "Analiza patrones de conducción para anticipar riesgos y enviar alertas preventivas."
+          }
+        },
+        "highlight_aWPrwX": {
+          "type": "highlight",
+          "settings": {
+            "title": "IA predictiva",
+            "text": "Analiza patrones de conducción para anticipar riesgos y enviar alertas preventivas."
+          }
+        },
+        "highlight_X7zdtp": {
+          "type": "highlight",
+          "settings": {
+            "title": "IA predictiva",
+            "text": "Analiza patrones de conducción para anticipar riesgos y enviar alertas preventivas."
+          }
+        },
+        "highlight_kG3pLB": {
+          "type": "highlight",
+          "settings": {
+            "title": "IA predictiva",
+            "text": "Analiza patrones de conducción para anticipar riesgos y enviar alertas preventivas."
+          }
+        }
+      },
+      "block_order": [
+        "highlight_E6t9KQ",
+        "highlight_aWPrwX",
+        "highlight_X7zdtp",
+        "highlight_kG3pLB"
+      ],
       "settings": {
         "badge": "Nuevo lanzamiento",
         "eyebrow": "Seguridad inteligente",
