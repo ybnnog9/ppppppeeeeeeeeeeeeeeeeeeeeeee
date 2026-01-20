@@ -1,0 +1,11 @@
+{
+  "general": {
+    "accessibility": {
+      "skip_to_content": "Ir al contenido"
+    }
+  },
+  "cart": {
+    "title": "Carrito",
+    "empty": "Tu carrito está vacío"
+  }
+}
