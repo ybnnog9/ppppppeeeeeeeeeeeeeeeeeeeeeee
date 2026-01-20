@@ -29,8 +29,8 @@
         "highlight_X7zdtp": {
           "type": "highlight",
           "settings": {
-            "title": "IA predictiva",
-            "text": "Analiza patrones de conducción para anticipar riesgos y enviar alertas preventivas."
+            "title": "🛡️ Seguridad",
+            "text": "Monitor de estacionamiento + detección de movimiento\nG-Sensor (impactos) + grabación en bucle\nADAS y registro de velocidad/coordenadas (con GPS externo)\nControl por voz"
           }
         },
         "highlight_kG3pLB": {
