@@ -28,45 +28,6 @@
         "image": "shopify://shop_images/a5d8995a-fd48-4440-9472-c4d026199f2d.png"
       }
     },
-    "features": {
-      "type": "features-grid",
-      "blocks": {
-        "feature_zaXB4B": {
-          "type": "feature",
-          "settings": {
-            "icon": "🛡️",
-            "title": "Seguridad total",
-            "text": "Protección avanzada con análisis de comportamiento y alertas inmediatas."
-          }
-        }
-      },
-      "block_order": [
-        "feature_zaXB4B"
-      ],
-      "settings": {
-        "badge": "Características principales",
-        "heading": "Tecnología que protege en todo momento",
-        "subheading": "Arquitectura inteligente, alertas instantáneas y soporte global para mantener tu vehículo seguro."
-      }
-    },
-    "featured": {
-      "type": "featured-collection",
-      "settings": {
-        "badge": "Lo mejor de la temporada",
-        "heading": "Productos imprescindibles",
-        "collection": "",
-        "limit": 4,
-        "cta_label": "Ver colección",
-        "cta_link": ""
-      }
-    },
-    "story": {
-      "type": "rich-text",
-      "settings": {
-        "heading": "Una historia que conecta",
-        "content": "<p>Comparte la esencia de tu marca con una narrativa cuidada, beneficios claros y valores que inspiran confianza.</p>"
-      }
-    },
     "newsletter": {
       "type": "newsletter",
       "settings": {
@@ -74,13 +35,72 @@
         "subheading": "Recibe novedades, lanzamientos y contenido exclusivo directamente en tu correo.",
         "button_label": "Suscribirme"
       }
+    },
+    "image_gallery_FLUTtj": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_RLrjny": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sa41b8a6b992a43d7aa42f2c1a19dce70B.webp",
+            "alt": "Imagen del producto"
+          }
+        },
+        "image_FPCMD6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/S953f016c41d345aabc92a626541721443.webp",
+            "alt": "Imagen del producto"
+          }
+        },
+        "image_8LEQKQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/S18216861f3634781abee3f2aa5e7369dO.webp",
+            "alt": "Imagen del producto"
+          }
+        },
+        "image_GWLMT7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/S1de18154e47846589a82a6ba9c744e34J.webp",
+            "alt": "Imagen del producto"
+          }
+        },
+        "image_FfwdL4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sab18b2e88c464aa28bd3d6dc51ae72826.webp",
+            "alt": "Imagen del producto"
+          }
+        },
+        "image_VEJPxy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/S231b13863de845ad8cf0eddc8d89f553c.webp",
+            "alt": "Imagen del producto"
+          }
+        }
+      },
+      "block_order": [
+        "image_RLrjny",
+        "image_FPCMD6",
+        "image_8LEQKQ",
+        "image_GWLMT7",
+        "image_FfwdL4",
+        "image_VEJPxy"
+      ],
+      "name": "Galería de imágenes",
+      "settings": {
+        "badge": "Galería",
+        "heading": "Detalles en alta definición",
+        "subheading": "Añade tus imágenes del producto para mostrar cada ángulo y característica clave."
+      }
     }
   },
   "order": [
     "hero",
-    "features",
-    "featured",
-    "story",
-    "newsletter"
+    "newsletter",
+    "image_gallery_FLUTtj"
   ]
 }
