@@ -89,23 +89,54 @@
         "subheading": "Arquitectura inteligente, alertas instantáneas y soporte global para mantener tu vehículo seguro."
       }
     },
-    "hero_MNNejq": {
-      "type": "hero",
-      "name": "Hero",
+    "main_product_CJghwV": {
+      "type": "main-product",
+      "blocks": {
+        "highlight_PYAiFg": {
+          "type": "highlight",
+          "settings": {
+            "title": "Detección 24/7",
+            "text": "Sensores inteligentes y notificaciones inmediatas ante impactos o movimientos sospechosos."
+          }
+        },
+        "highlight_tpdEW7": {
+          "type": "highlight",
+          "settings": {
+            "title": "Control desde el móvil",
+            "text": "Gestiona alertas, ubicación y reportes desde iOS o Android en segundos."
+          }
+        },
+        "highlight_CCKGmt": {
+          "type": "highlight",
+          "settings": {
+            "title": "Instalación express",
+            "text": "Sistema plug & play sin modificaciones complicadas ni talleres externos."
+          }
+        },
+        "highlight_97BbQi": {
+          "type": "highlight",
+          "settings": {
+            "title": "Protección premium",
+            "text": "Tecnología de seguridad vehicular avanzada con actualizaciones constantes."
+          }
+        }
+      },
+      "block_order": [
+        "highlight_PYAiFg",
+        "highlight_tpdEW7",
+        "highlight_CCKGmt",
+        "highlight_97BbQi"
+      ],
+      "name": "Producto principal",
       "settings": {
-        "badge": "DriveGuard AI™",
-        "heading": "Seguridad inteligente para tu vehículo",
-        "subheading": "Protege tu vehículo con IA de última generación y monitoreo continuo en tiempo real desde cualquier lugar.",
-        "primary_label": "Comprar ahora",
-        "primary_link": "",
-        "secondary_label": "Más información",
+        "badge": "Nuevo lanzamiento",
+        "eyebrow": "Seguridad inteligente",
+        "subheading": "Monitoriza tu vehículo con IA avanzada, detección de impactos y alertas instantáneas desde la app móvil.",
+        "primary_cta": "Comprar ahora",
+        "secondary_cta": "Ver detalles",
         "secondary_link": "",
-        "stat_one_value": "99.8%",
-        "stat_one_label": "Precisión",
-        "stat_two_value": "24/7",
-        "stat_two_label": "Protección",
-        "stat_three_value": "+50K",
-        "stat_three_label": "Usuarios"
+        "shipping_text": "Envío gratis en 24-72h + tracking en tiempo real.",
+        "guarantee_text": "Garantía premium de 24 meses y soporte 24/7."
       }
     }
   },
@@ -113,6 +144,6 @@
     "main",
     "rich_text_zfFpjT",
     "features_grid_MGEhFD",
-    "hero_MNNejq"
+    "main_product_CJghwV"
   ]
 }
