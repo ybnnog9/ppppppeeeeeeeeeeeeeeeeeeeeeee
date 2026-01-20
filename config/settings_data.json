@@ -9,10 +9,21 @@
  */
 {
   "current": {
+    "brand_name": "DriveGuard AI™",
     "settings": {
       "brand_name": "DriveGuard AI",
       "footer_tagline": "Seguridad inteligente, tecnología premium y monitoreo continuo para tu vehículo.",
       "footer_contact": "hola@driveguard.ai\n+34 600 000 000\nMadrid, España"
+    },
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {}
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {}
+      }
     },
     "content_for_index": []
   }
