@@ -19,7 +19,7 @@
       "name": "Texto enriquecido",
       "settings": {
         "heading": "Tu vehículo no se queda solo",
-        "content": "<p><br/>DriveGuard X fue creado para darte la tranquilidad que necesitas: detecta lo importante, te avisa al instante y te deja el control en la palma de tu mano, estés donde estés.<br/><br/></p>"
+        "content": "<p><br/><strong>DriveGuard X fue creado para darte la tranquilidad que necesitas: detecta lo importante, te avisa al instante y te deja el control en la palma de tu mano, estés donde estés.<br/><br/></strong></p>"
       }
     },
     "features_grid_MGEhFD": {
@@ -88,11 +88,21 @@
         "heading": "Tecnología que protege en todo momento",
         "subheading": "Arquitectura inteligente, alertas instantáneas y soporte global para mantener tu vehículo seguro."
       }
+    },
+    "newsletter_FFcJJ4": {
+      "type": "newsletter",
+      "name": "Newsletter",
+      "settings": {
+        "heading": "Únete a nuestra comunidad",
+        "subheading": "Recibe novedades, lanzamientos y contenido exclusivo directamente en tu correo.",
+        "button_label": "Suscribirme"
+      }
     }
   },
   "order": [
     "main",
     "rich_text_zfFpjT",
-    "features_grid_MGEhFD"
+    "features_grid_MGEhFD",
+    "newsletter_FFcJJ4"
   ]
 }
