@@ -30,6 +30,19 @@
     },
     "features": {
       "type": "features-grid",
+      "blocks": {
+        "feature_zaXB4B": {
+          "type": "feature",
+          "settings": {
+            "icon": "🛡️",
+            "title": "Seguridad total",
+            "text": "Protección avanzada con análisis de comportamiento y alertas inmediatas."
+          }
+        }
+      },
+      "block_order": [
+        "feature_zaXB4B"
+      ],
       "settings": {
         "badge": "Características principales",
         "heading": "Tecnología que protege en todo momento",
