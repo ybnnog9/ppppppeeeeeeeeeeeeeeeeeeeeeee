@@ -55,18 +55,9 @@
         "shipping_text": "Envío gratis en 7-10 Días + tracking en tiempo real.",
         "guarantee_text": ""
       }
-    },
-    "gallery": {
-      "type": "image-gallery",
-      "settings": {
-        "badge": "Galería",
-        "heading": "Detalles en alta definición",
-        "subheading": "Añade tus imágenes del producto para mostrar cada ángulo y característica clave."
-      }
     }
   },
   "order": [
-    "main",
-    "gallery"
+    "main"
   ]
 }
