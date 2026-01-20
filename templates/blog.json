@@ -14,6 +14,14 @@
       "disabled": true,
       "settings": {}
     },
+    "rich_text_zfFpjT": {
+      "type": "rich-text",
+      "name": "Texto enriquecido",
+      "settings": {
+        "heading": "Tu vehículo no se queda solo",
+        "content": "<p><br/>DriveGuard X fue creado para darte la tranquilidad que necesitas: detecta lo importante, te avisa al instante y te deja el control en la palma de tu mano, estés donde estés.<br/><br/></p>"
+      }
+    },
     "features_grid_MGEhFD": {
       "type": "features-grid",
       "blocks": {
@@ -79,14 +87,6 @@
         "badge": "Características principales",
         "heading": "Tecnología que protege en todo momento",
         "subheading": "Arquitectura inteligente, alertas instantáneas y soporte global para mantener tu vehículo seguro."
-      }
-    },
-    "rich_text_zfFpjT": {
-      "type": "rich-text",
-      "name": "Texto enriquecido",
-      "settings": {
-        "heading": "Una historia que conecta",
-        "content": "<p>Comparte la esencia de tu marca con una narrativa cuidada, beneficios claros y valores que inspiran confianza.</p>"
       }
     }
   },
