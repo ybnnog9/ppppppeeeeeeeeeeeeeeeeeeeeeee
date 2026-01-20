@@ -1,0 +1,146 @@
+<section class="section section--product" data-animate>
+  <div class="container product-hero">
+    <div class="product-hero__media">
+      {% if product.featured_image %}
+        <img src="{{ product.featured_image | image_url: width: 1100 }}" alt="{{ product.title }}">
+      {% endif %}
+      <div class="product-hero__badge">{{ section.settings.badge }}</div>
+    </div>
+    <div class="product-hero__info">
+      <span class="badge">{{ section.settings.eyebrow }}</span>
+      <h1>{{ product.title }}</h1>
+      <p class="product-hero__subtitle">{{ section.settings.subheading }}</p>
+      {% render 'price', product: product %}
+      <div class="product-hero__actions">
+        <form method="post" action="/cart/add">
+          <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+          <button class="button" type="submit">{{ section.settings.primary_cta }}</button>
+        </form>
+        <a class="button button--ghost" href="{{ section.settings.secondary_link }}">{{ section.settings.secondary_cta }}</a>
+      </div>
+      <div class="product-hero__meta">
+        <p>{{ section.settings.shipping_text }}</p>
+        <p>{{ section.settings.guarantee_text }}</p>
+      </div>
+      <div class="product-hero__highlights">
+        {% for block in section.blocks %}
+          <div class="product-highlight" {{ block.shopify_attributes }}>
+            <h3>{{ block.settings.title }}</h3>
+            <p>{{ block.settings.text }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Producto principal",
+  "settings": [
+    {
+      "type": "text",
+      "id": "badge",
+      "label": "Etiqueta en imagen",
+      "default": "Nuevo lanzamiento"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Etiqueta superior",
+      "default": "Seguridad inteligente"
+    },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Subtítulo",
+      "default": "Monitoriza tu vehículo con IA avanzada, detección de impactos y alertas instantáneas desde la app móvil."
+    },
+    {
+      "type": "text",
+      "id": "primary_cta",
+      "label": "CTA principal",
+      "default": "Comprar ahora"
+    },
+    {
+      "type": "text",
+      "id": "secondary_cta",
+      "label": "CTA secundario",
+      "default": "Ver detalles"
+    },
+    {
+      "type": "url",
+      "id": "secondary_link",
+      "label": "Enlace CTA secundario"
+    },
+    {
+      "type": "text",
+      "id": "shipping_text",
+      "label": "Texto envío",
+      "default": "Envío gratis en 24-72h + tracking en tiempo real."
+    },
+    {
+      "type": "text",
+      "id": "guarantee_text",
+      "label": "Texto garantía",
+      "default": "Garantía premium de 24 meses y soporte 24/7."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "highlight",
+      "name": "Highlight",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Título",
+          "default": "IA predictiva"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Descripción",
+          "default": "Analiza patrones de conducción para anticipar riesgos y enviar alertas preventivas."
+        }
+      ]
+    }
+  ],
+  "max_blocks": 4,
+  "presets": [
+    {
+      "name": "Producto principal",
+      "blocks": [
+        {
+          "type": "highlight",
+          "settings": {
+            "title": "Detección 24/7",
+            "text": "Sensores inteligentes y notificaciones inmediatas ante impactos o movimientos sospechosos."
+          }
+        },
+        {
+          "type": "highlight",
+          "settings": {
+            "title": "Control desde el móvil",
+            "text": "Gestiona alertas, ubicación y reportes desde iOS o Android en segundos."
+          }
+        },
+        {
+          "type": "highlight",
+          "settings": {
+            "title": "Instalación express",
+            "text": "Sistema plug & play sin modificaciones complicadas ni talleres externos."
+          }
+        },
+        {
+          "type": "highlight",
+          "settings": {
+            "title": "Protección premium",
+            "text": "Tecnología de seguridad vehicular avanzada con actualizaciones constantes."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
