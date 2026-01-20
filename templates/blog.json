@@ -89,13 +89,23 @@
         "subheading": "Arquitectura inteligente, alertas instantáneas y soporte global para mantener tu vehículo seguro."
       }
     },
-    "newsletter_FFcJJ4": {
-      "type": "newsletter",
-      "name": "Newsletter",
+    "hero_MNNejq": {
+      "type": "hero",
+      "name": "Hero",
       "settings": {
-        "heading": "Únete a nuestra comunidad",
-        "subheading": "Recibe novedades, lanzamientos y contenido exclusivo directamente en tu correo.",
-        "button_label": "Suscribirme"
+        "badge": "DriveGuard AI™",
+        "heading": "Seguridad inteligente para tu vehículo",
+        "subheading": "Protege tu vehículo con IA de última generación y monitoreo continuo en tiempo real desde cualquier lugar.",
+        "primary_label": "Comprar ahora",
+        "primary_link": "",
+        "secondary_label": "Más información",
+        "secondary_link": "",
+        "stat_one_value": "99.8%",
+        "stat_one_label": "Precisión",
+        "stat_two_value": "24/7",
+        "stat_two_label": "Protección",
+        "stat_three_value": "+50K",
+        "stat_three_label": "Usuarios"
       }
     }
   },
@@ -103,6 +113,6 @@
     "main",
     "rich_text_zfFpjT",
     "features_grid_MGEhFD",
-    "newsletter_FFcJJ4"
+    "hero_MNNejq"
   ]
 }
