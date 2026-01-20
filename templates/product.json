@@ -9,9 +9,45 @@
  */
 {
   "sections": {
-    "main": {
+    "main_product_GXdTb8": {
       "type": "main-product",
-      "disabled": true,
+      "blocks": {
+        "highlight_8hgpcW": {
+          "type": "highlight",
+          "settings": {
+            "title": "Detección 24/7",
+            "text": "Sensores inteligentes y notificaciones inmediatas ante impactos o movimientos sospechosos."
+          }
+        },
+        "highlight_nExzqH": {
+          "type": "highlight",
+          "settings": {
+            "title": "Control desde el móvil",
+            "text": "Gestiona alertas, ubicación y reportes desde iOS o Android en segundos."
+          }
+        },
+        "highlight_3BkKKR": {
+          "type": "highlight",
+          "settings": {
+            "title": "Instalación express",
+            "text": "Sistema plug & play sin modificaciones complicadas ni talleres externos."
+          }
+        },
+        "highlight_3fGDUC": {
+          "type": "highlight",
+          "settings": {
+            "title": "Protección premium",
+            "text": "Tecnología de seguridad vehicular avanzada con actualizaciones constantes."
+          }
+        }
+      },
+      "block_order": [
+        "highlight_8hgpcW",
+        "highlight_nExzqH",
+        "highlight_3BkKKR",
+        "highlight_3fGDUC"
+      ],
+      "name": "Producto principal",
       "settings": {
         "badge": "Nuevo lanzamiento",
         "eyebrow": "Seguridad inteligente",
@@ -89,61 +125,10 @@
         "heading": "Tecnología que protege en todo momento",
         "subheading": "Arquitectura inteligente, alertas instantáneas y soporte global para mantener tu vehículo seguro."
       }
-    },
-    "main_product_GXdTb8": {
-      "type": "main-product",
-      "blocks": {
-        "highlight_8hgpcW": {
-          "type": "highlight",
-          "settings": {
-            "title": "Detección 24/7",
-            "text": "Sensores inteligentes y notificaciones inmediatas ante impactos o movimientos sospechosos."
-          }
-        },
-        "highlight_nExzqH": {
-          "type": "highlight",
-          "settings": {
-            "title": "Control desde el móvil",
-            "text": "Gestiona alertas, ubicación y reportes desde iOS o Android en segundos."
-          }
-        },
-        "highlight_3BkKKR": {
-          "type": "highlight",
-          "settings": {
-            "title": "Instalación express",
-            "text": "Sistema plug & play sin modificaciones complicadas ni talleres externos."
-          }
-        },
-        "highlight_3fGDUC": {
-          "type": "highlight",
-          "settings": {
-            "title": "Protección premium",
-            "text": "Tecnología de seguridad vehicular avanzada con actualizaciones constantes."
-          }
-        }
-      },
-      "block_order": [
-        "highlight_8hgpcW",
-        "highlight_nExzqH",
-        "highlight_3BkKKR",
-        "highlight_3fGDUC"
-      ],
-      "name": "Producto principal",
-      "settings": {
-        "badge": "Nuevo lanzamiento",
-        "eyebrow": "Seguridad inteligente",
-        "subheading": "Monitoriza tu vehículo con IA avanzada, detección de impactos y alertas instantáneas desde la app móvil.",
-        "primary_cta": "Comprar ahora",
-        "secondary_cta": "Ver detalles",
-        "secondary_link": "",
-        "shipping_text": "Envío gratis en 24-72h + tracking en tiempo real.",
-        "guarantee_text": "Garantía premium de 24 meses y soporte 24/7."
-      }
     }
   },
   "order": [
     "main_product_GXdTb8",
-    "main",
     "features_grid_Pe7EHa"
   ]
 }
