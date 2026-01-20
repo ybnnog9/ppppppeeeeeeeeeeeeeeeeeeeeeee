@@ -80,10 +80,19 @@
         "heading": "Tecnología que protege en todo momento",
         "subheading": "Arquitectura inteligente, alertas instantáneas y soporte global para mantener tu vehículo seguro."
       }
+    },
+    "rich_text_zfFpjT": {
+      "type": "rich-text",
+      "name": "Texto enriquecido",
+      "settings": {
+        "heading": "Una historia que conecta",
+        "content": "<p>Comparte la esencia de tu marca con una narrativa cuidada, beneficios claros y valores que inspiran confianza.</p>"
+      }
     }
   },
   "order": [
     "main",
+    "rich_text_zfFpjT",
     "features_grid_MGEhFD"
   ]
 }
