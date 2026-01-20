@@ -59,36 +59,12 @@
             "image": "shopify://shop_images/S18216861f3634781abee3f2aa5e7369dO.webp",
             "alt": "Imagen del producto"
           }
-        },
-        "image_GWLMT7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/S1de18154e47846589a82a6ba9c744e34J.webp",
-            "alt": "Imagen del producto"
-          }
-        },
-        "image_FfwdL4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Sab18b2e88c464aa28bd3d6dc51ae72826.webp",
-            "alt": "Imagen del producto"
-          }
-        },
-        "image_VEJPxy": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/S231b13863de845ad8cf0eddc8d89f553c.webp",
-            "alt": "Imagen del producto"
-          }
         }
       },
       "block_order": [
         "image_RLrjny",
         "image_FPCMD6",
-        "image_8LEQKQ",
-        "image_GWLMT7",
-        "image_FfwdL4",
-        "image_VEJPxy"
+        "image_8LEQKQ"
       ],
       "name": "Galería de imágenes",
       "settings": {
