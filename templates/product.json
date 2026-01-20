@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-product",
+      "disabled": true,
       "settings": {
         "badge": "Nuevo lanzamiento",
         "eyebrow": "Seguridad inteligente",
@@ -141,8 +142,8 @@
     }
   },
   "order": [
+    "main_product_GXdTb8",
     "main",
-    "features_grid_Pe7EHa",
-    "main_product_GXdTb8"
+    "features_grid_Pe7EHa"
   ]
 }
