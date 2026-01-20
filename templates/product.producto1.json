@@ -1,0 +1,135 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main_product_GXdTb8": {
+      "type": "main-product",
+      "blocks": {
+        "highlight_8hgpcW": {
+          "type": "highlight",
+          "settings": {
+            "title": "Detección 24/7",
+            "text": "Sensores inteligentes y notificaciones inmediatas ante impactos o movimientos sospechosos."
+          }
+        },
+        "highlight_nExzqH": {
+          "type": "highlight",
+          "settings": {
+            "title": "Control desde el móvil",
+            "text": "Gestiona alertas, ubicación y reportes desde iOS o Android en segundos."
+          }
+        },
+        "highlight_3BkKKR": {
+          "type": "highlight",
+          "settings": {
+            "title": "Instalación express",
+            "text": "Sistema plug & play sin modificaciones complicadas ni talleres externos."
+          }
+        },
+        "highlight_3fGDUC": {
+          "type": "highlight",
+          "settings": {
+            "title": "Protección premium",
+            "text": "Tecnología de seguridad vehicular avanzada con actualizaciones constantes."
+          }
+        }
+      },
+      "block_order": [
+        "highlight_8hgpcW",
+        "highlight_nExzqH",
+        "highlight_3BkKKR",
+        "highlight_3fGDUC"
+      ],
+      "name": "Producto principal",
+      "settings": {
+        "badge": "Nuevo lanzamiento",
+        "eyebrow": "Seguridad inteligente",
+        "subheading": "Monitoriza tu vehículo con IA avanzada, detección de impactos y alertas instantáneas desde la app móvil.",
+        "primary_cta": "Añadir al carrito",
+        "secondary_cta": "Más información",
+        "secondary_link": "shopify://products/10-11-26-4k-adas-dvr-wireless-carplay-android-auto-dash-cam-bluetooth-audio-gps-navigation-dashboard-dual-lens-video-recorder",
+        "shipping_text": "Envío gratis en 24-72h + tracking en tiempo real.",
+        "guarantee_text": "Garantía premium de 24 meses y soporte 24/7."
+      }
+    },
+    "features_grid_Pe7EHa": {
+      "type": "features-grid",
+      "blocks": {
+        "feature_iJxcVp": {
+          "type": "feature",
+          "settings": {
+            "icon": "🤖",
+            "title": "IA inteligente",
+            "text": "Algoritmos que aprenden tu conducción para anticipar riesgos."
+          }
+        },
+        "feature_kbV8Qm": {
+          "type": "feature",
+          "settings": {
+            "icon": "🔒",
+            "title": "Seguridad total",
+            "text": "Protección en tiempo real contra robos, accidentes y eventos críticos."
+          }
+        },
+        "feature_AztDNX": {
+          "type": "feature",
+          "settings": {
+            "icon": "📱",
+            "title": "App móvil",
+            "text": "Monitoreo desde iOS y Android con notificaciones instantáneas."
+          }
+        },
+        "feature_hje3Yy": {
+          "type": "feature",
+          "settings": {
+            "icon": "⚡",
+            "title": "Instalación fácil",
+            "text": "Plug and play sin modificaciones mecánicas complejas."
+          }
+        },
+        "feature_xpGYb7": {
+          "type": "feature",
+          "settings": {
+            "icon": "🌍",
+            "title": "Cobertura global",
+            "text": "Funciona en más de 150 países con soporte multilingüe."
+          }
+        },
+        "feature_6dhBiy": {
+          "type": "feature",
+          "settings": {
+            "icon": "💬",
+            "title": "Soporte 24/7",
+            "text": "Equipo especializado disponible en cualquier momento."
+          }
+        }
+      },
+      "block_order": [
+        "feature_iJxcVp",
+        "feature_kbV8Qm",
+        "feature_AztDNX",
+        "feature_hje3Yy",
+        "feature_xpGYb7",
+        "feature_6dhBiy"
+      ],
+      "disabled": true,
+      "name": "Características",
+      "settings": {
+        "badge": "Características principales",
+        "heading": "Tecnología que protege en todo momento",
+        "subheading": "Arquitectura inteligente, alertas instantáneas y soporte global para mantener tu vehículo seguro."
+      }
+    }
+  },
+  "order": [
+    "main_product_GXdTb8",
+    "features_grid_Pe7EHa"
+  ]
+}
