@@ -18,8 +18,8 @@
       "type": "rich-text",
       "name": "Texto enriquecido",
       "settings": {
-        "heading": "Tu vehículo no se queda solo",
-        "content": "<p><br/><strong>DriveGuard X fue creado para darte la tranquilidad que necesitas: detecta lo importante, te avisa al instante y te deja el control en la palma de tu mano, estés donde estés.<br/><br/></strong></p>"
+        "heading": "Tecnología que cuida lo que te mueve.",
+        "content": "<p>Tu vehículo no es solo un medio de transporte: es tiempo, inversión y tranquilidad. Por eso DriveGuard AI combina una experiencia moderna de conducción con una capa de seguridad inteligente. Una pantalla conectada para CarPlay/Android Auto y un sistema de cámaras pensado para registrar lo importante y ayudarte a reaccionar a tiempo.</p><p>La diferencia no está solo en “grabar”, sino en <strong>hacerlo útil</strong>: información clara, acceso rápido y un enfoque diseñado para el mundo real (tráfico, estacionamientos, imprevistos). DriveGuard AI transforma la incertidumbre en evidencias y el “me contaron” en “aquí está lo que pasó”.</p><p>El resultado es simple: más control, menos estrés y una conducción más cómoda, con la confianza de que tu vehículo está acompañado por tecnología que trabaja contigo.<strong><br/></strong>{{ blog.title }}</p>"
       }
     },
     "features_grid_MGEhFD": {
@@ -88,62 +88,11 @@
         "heading": "Tecnología que protege en todo momento",
         "subheading": "Arquitectura inteligente, alertas instantáneas y soporte global para mantener tu vehículo seguro."
       }
-    },
-    "main_product_CJghwV": {
-      "type": "main-product",
-      "blocks": {
-        "highlight_PYAiFg": {
-          "type": "highlight",
-          "settings": {
-            "title": "Detección 24/7",
-            "text": "Sensores inteligentes y notificaciones inmediatas ante impactos o movimientos sospechosos."
-          }
-        },
-        "highlight_tpdEW7": {
-          "type": "highlight",
-          "settings": {
-            "title": "Control desde el móvil",
-            "text": "Gestiona alertas, ubicación y reportes desde iOS o Android en segundos."
-          }
-        },
-        "highlight_CCKGmt": {
-          "type": "highlight",
-          "settings": {
-            "title": "Instalación express",
-            "text": "Sistema plug & play sin modificaciones complicadas ni talleres externos."
-          }
-        },
-        "highlight_97BbQi": {
-          "type": "highlight",
-          "settings": {
-            "title": "Protección premium",
-            "text": "Tecnología de seguridad vehicular avanzada con actualizaciones constantes."
-          }
-        }
-      },
-      "block_order": [
-        "highlight_PYAiFg",
-        "highlight_tpdEW7",
-        "highlight_CCKGmt",
-        "highlight_97BbQi"
-      ],
-      "name": "Producto principal",
-      "settings": {
-        "badge": "Nuevo lanzamiento",
-        "eyebrow": "Seguridad inteligente",
-        "subheading": "Monitoriza tu vehículo con IA avanzada, detección de impactos y alertas instantáneas desde la app móvil.",
-        "primary_cta": "Comprar ahora",
-        "secondary_cta": "Ver detalles",
-        "secondary_link": "",
-        "shipping_text": "Envío gratis en 24-72h + tracking en tiempo real.",
-        "guarantee_text": "Garantía premium de 24 meses y soporte 24/7."
-      }
     }
   },
   "order": [
     "main",
     "rich_text_zfFpjT",
-    "features_grid_MGEhFD",
-    "main_product_CJghwV"
+    "features_grid_MGEhFD"
   ]
 }
