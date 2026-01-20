@@ -94,15 +94,6 @@
         "subheading": "Arquitectura inteligente, alertas instantáneas y soporte global para mantener tu vehículo seguro."
       }
     },
-    "features": {
-      "type": "features-grid",
-      "disabled": true,
-      "settings": {
-        "badge": "Características principales",
-        "heading": "Tecnología que protege en todo momento",
-        "subheading": "Arquitectura inteligente, alertas instantáneas y soporte global para mantener tu vehículo seguro."
-      }
-    },
     "featured": {
       "type": "featured-collection",
       "settings": {
@@ -133,7 +124,6 @@
   "order": [
     "hero",
     "features_grid_VPYPFc",
-    "features",
     "featured",
     "story",
     "newsletter"
