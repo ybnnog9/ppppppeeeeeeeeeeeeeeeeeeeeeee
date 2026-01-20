@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Configuración general",
+    "settings": [
+      {
+        "type": "text",
+        "id": "brand_name",
+        "label": "Nombre de la marca",
+        "default": "DriveGuard AI"
+      },
+      {
+        "type": "textarea",
+        "id": "footer_tagline",
+        "label": "Descripción del pie",
+        "default": "Seguridad inteligente, tecnología premium y monitoreo continuo para tu vehículo."
+      },
+      {
+        "type": "textarea",
+        "id": "footer_contact",
+        "label": "Información de contacto",
+        "default": "hola@driveguard.ai\n+34 600 000 000\nMadrid, España"
+      }
+    ]
+  }
+]
