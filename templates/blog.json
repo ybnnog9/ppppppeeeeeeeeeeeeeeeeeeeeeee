@@ -1,8 +1,89 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
-      "type": "main-blog"
+      "type": "main-blog",
+      "disabled": true,
+      "settings": {}
+    },
+    "features_grid_MGEhFD": {
+      "type": "features-grid",
+      "blocks": {
+        "feature_wUx9wa": {
+          "type": "feature",
+          "settings": {
+            "icon": "🤖",
+            "title": "IA inteligente",
+            "text": "Algoritmos que aprenden tu conducción para anticipar riesgos."
+          }
+        },
+        "feature_LrFijR": {
+          "type": "feature",
+          "settings": {
+            "icon": "🔒",
+            "title": "Seguridad total",
+            "text": "Protección en tiempo real contra robos, accidentes y eventos críticos."
+          }
+        },
+        "feature_JzMdLx": {
+          "type": "feature",
+          "settings": {
+            "icon": "📱",
+            "title": "App móvil",
+            "text": "Monitoreo desde iOS y Android con notificaciones instantáneas."
+          }
+        },
+        "feature_AQgU9n": {
+          "type": "feature",
+          "settings": {
+            "icon": "⚡",
+            "title": "Instalación fácil",
+            "text": "Plug and play sin modificaciones mecánicas complejas."
+          }
+        },
+        "feature_xVrKLk": {
+          "type": "feature",
+          "settings": {
+            "icon": "🌍",
+            "title": "Cobertura global",
+            "text": "Funciona en más de 150 países con soporte multilingüe."
+          }
+        },
+        "feature_DJN8Ax": {
+          "type": "feature",
+          "settings": {
+            "icon": "💬",
+            "title": "Soporte 24/7",
+            "text": "Equipo especializado disponible en cualquier momento."
+          }
+        }
+      },
+      "block_order": [
+        "feature_wUx9wa",
+        "feature_LrFijR",
+        "feature_JzMdLx",
+        "feature_AQgU9n",
+        "feature_xVrKLk",
+        "feature_DJN8Ax"
+      ],
+      "name": "Características",
+      "settings": {
+        "badge": "Características principales",
+        "heading": "Tecnología que protege en todo momento",
+        "subheading": "Arquitectura inteligente, alertas instantáneas y soporte global para mantener tu vehículo seguro."
+      }
     }
   },
-  "order": ["main"]
+  "order": [
+    "main",
+    "features_grid_MGEhFD"
+  ]
 }
