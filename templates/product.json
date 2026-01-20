@@ -22,18 +22,6 @@
     },
     "gallery": {
       "type": "image-gallery",
-      "blocks": {
-        "image_9CnDQC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/S692957456f54440da0ff26ea4d8aac3cv.webp",
-            "alt": "Imagen del producto"
-          }
-        }
-      },
-      "block_order": [
-        "image_9CnDQC"
-      ],
       "settings": {
         "badge": "Galería",
         "heading": "Detalles en alta definición",
