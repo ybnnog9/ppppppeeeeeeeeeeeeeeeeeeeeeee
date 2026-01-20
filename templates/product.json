@@ -55,7 +55,7 @@
         "primary_cta": "Comprar ahora",
         "secondary_cta": "Ver detalles",
         "secondary_link": "",
-        "shipping_text": "Envío gratis en 24-72h + tracking en tiempo real.{{ product.title }}",
+        "shipping_text": "Envío gratis en 24-72h + tracking en tiempo real.",
         "guarantee_text": "Garantía premium de 24 meses y soporte 24/7."
       }
     },
