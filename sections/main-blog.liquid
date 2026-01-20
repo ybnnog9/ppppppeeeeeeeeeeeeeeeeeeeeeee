@@ -1,0 +1,25 @@
+<section class="section">
+  <div class="container">
+    <div class="section-title">
+      <div>
+        <span class="badge">{{ blog.articles_count }} artículos</span>
+        <h2>{{ blog.title }}</h2>
+      </div>
+    </div>
+    <div class="card-grid">
+      {% for article in blog.articles %}
+        <article class="product-card">
+          <h3 class="product-card__title"><a href="{{ article.url }}">{{ article.title }}</a></h3>
+          <p>{{ article.excerpt | strip_html | truncate: 120 }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Blog principal",
+  "settings": []
+}
+{% endschema %}

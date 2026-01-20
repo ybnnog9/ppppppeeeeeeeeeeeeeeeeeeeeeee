@@ -1,0 +1,82 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "settings": {
+        "badge": "DriveGuard AI™",
+        "heading": "DriveGuard X",
+        "subheading": ".",
+        "primary_label": "Mira DriveGuard X",
+        "primary_link": "shopify://products/10-11-26-4k-adas-dvr-wireless-carplay-android-auto-dash-cam-bluetooth-audio-gps-navigation-dashboard-dual-lens-video-recorder",
+        "secondary_label": "Más información",
+        "secondary_link": "",
+        "stat_one_value": "99.8%",
+        "stat_one_label": "Precisión",
+        "stat_two_value": "24/7",
+        "stat_two_label": "Protección",
+        "stat_three_value": "+50K",
+        "stat_three_label": "Usuarios",
+        "image": "shopify://shop_images/a5d8995a-fd48-4440-9472-c4d026199f2d.png"
+      }
+    },
+    "image_gallery_FLUTtj": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_RLrjny": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sa41b8a6b992a43d7aa42f2c1a19dce70B.webp",
+            "alt": "Imagen del producto"
+          }
+        },
+        "image_FPCMD6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/S953f016c41d345aabc92a626541721443.webp",
+            "alt": "Imagen del producto"
+          }
+        },
+        "image_8LEQKQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/S18216861f3634781abee3f2aa5e7369dO.webp",
+            "alt": "Imagen del producto"
+          }
+        }
+      },
+      "block_order": [
+        "image_RLrjny",
+        "image_FPCMD6",
+        "image_8LEQKQ"
+      ],
+      "name": "Galería de imágenes",
+      "settings": {
+        "badge": "",
+        "heading": "",
+        "subheading": "Añade tus imágenes del producto para mostrar cada ángulo y característica clave."
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+        "heading": "Únete a nuestra comunidad",
+        "subheading": "Recibe novedades, lanzamientos y contenido exclusivo directamente en tu correo.",
+        "button_label": "Suscribirme"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "image_gallery_FLUTtj",
+    "newsletter"
+  ]
+}

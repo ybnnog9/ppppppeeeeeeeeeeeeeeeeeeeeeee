@@ -1,0 +1,35 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>{{ settings.brand_name | default: shop.name }}</h3>
+      <p>{{ settings.footer_tagline }}</p>
+    </div>
+    <div>
+      <h4>Enlaces rápidos</h4>
+      <ul>
+        {% for link in linklists.footer-menu.links %}
+          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div>
+      <h4>Contacto</h4>
+      <p>{{ settings.footer_contact }}</p>
+    </div>
+    <div>
+      <h4>Boletín</h4>
+      {% form 'customer' %}
+        <input type="hidden" name="contact[tags]" value="newsletter">
+        <input class="form-input" type="email" name="contact[email]" placeholder="Tu email" required>
+        <button class="button" type="submit">Suscribirme</button>
+      {% endform %}
+    </div>
+  </div>
+</footer>
+
+{% schema %}
+{
+  "name": "Pie de página",
+  "settings": []
+}
+{% endschema %}

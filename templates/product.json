@@ -1,0 +1,63 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "highlight_E6t9KQ": {
+          "type": "highlight",
+          "settings": {
+            "title": "🖥️ Pantalla",
+            "text": "Pantalla IPS táctil de 11,26” (16:9)\nVisualización clara y fluida para un uso cómodo en carretera"
+          }
+        },
+        "highlight_aWPrwX": {
+          "type": "highlight",
+          "settings": {
+            "title": "🎥 Cámaras",
+            "text": "Grabación 4K (3840×2160) a 30 FPS\nDoble cámara (delantera + trasera) con sensor Sony (1/3”)\nÁngulo amplio 140° y visión nocturna (NightShot)"
+          }
+        },
+        "highlight_X7zdtp": {
+          "type": "highlight",
+          "settings": {
+            "title": "🛡️ Seguridad",
+            "text": "Monitor de estacionamiento + detección de movimiento\nG-Sensor (impactos) + grabación en bucle\nADAS y registro de velocidad/coordenadas (con GPS externo)\nControl por voz"
+          }
+        },
+        "highlight_kG3pLB": {
+          "type": "highlight",
+          "settings": {
+            "title": "📶 Conectividad",
+            "text": "Wi-Fi + Bluetooth y entrada AV-IN\nHasta 256 GB (Micro SD/TF, recomendado Clase 10)\nAlimentación por cable + batería interna\nCertificaciones CE/RoHS y garantía 365 días\nRango de temperatura: −50°C a 70°C"
+          }
+        }
+      },
+      "block_order": [
+        "highlight_E6t9KQ",
+        "highlight_aWPrwX",
+        "highlight_X7zdtp",
+        "highlight_kG3pLB"
+      ],
+      "settings": {
+        "badge": "Nuevo lanzamiento",
+        "eyebrow": "Seguridad inteligente",
+        "subheading": "",
+        "primary_cta": "Comprar ahora",
+        "shipping_text": "Envío gratis en 7-10 Días + tracking en tiempo real.",
+        "guarantee_text": ""
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

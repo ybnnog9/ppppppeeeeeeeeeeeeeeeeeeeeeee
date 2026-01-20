@@ -1,0 +1,14 @@
+<section class="section">
+  <div class="container rich-text">
+    <p class="badge">{{ article.published_at | date: "%d %b %Y" }}</p>
+    <h1>{{ article.title }}</h1>
+    <div>{{ article.content }}</div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Artículo principal",
+  "settings": []
+}
+{% endschema %}
