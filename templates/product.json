@@ -61,62 +61,6 @@
     "testimonials_mwy4HD": {
       "type": "testimonials",
       "blocks": {
-        "testimonial_DkJ6zc": {
-          "type": "testimonial",
-          "settings": {
-            "quote": "La instalación fue rápida y la app es increíble.",
-            "name": "María L.",
-            "role": "Conductora"
-          }
-        },
-        "testimonial_XXnQUC": {
-          "type": "testimonial",
-          "settings": {
-            "quote": "La instalación fue rápida y la app es increíble.",
-            "name": "María L.",
-            "role": "Conductora"
-          }
-        },
-        "testimonial_GCcaV3": {
-          "type": "testimonial",
-          "settings": {
-            "quote": "La instalación fue rápida y la app es increíble.",
-            "name": "María L.",
-            "role": "Conductora"
-          }
-        },
-        "testimonial_JYdfGY": {
-          "type": "testimonial",
-          "settings": {
-            "quote": "La instalación fue rápida y la app es increíble.",
-            "name": "María L.",
-            "role": "Conductora"
-          }
-        },
-        "testimonial_DFGdwH": {
-          "type": "testimonial",
-          "settings": {
-            "quote": "La instalación fue rápida y la app es increíble.",
-            "name": "María L.",
-            "role": "Conductora"
-          }
-        },
-        "testimonial_bAHK4C": {
-          "type": "testimonial",
-          "settings": {
-            "quote": "La instalación fue rápida y la app es increíble.",
-            "name": "María L.",
-            "role": "Conductora"
-          }
-        },
-        "testimonial_6TPHRe": {
-          "type": "testimonial",
-          "settings": {
-            "quote": "La instalación fue rápida y la app es increíble.",
-            "name": "María L.",
-            "role": "Conductora"
-          }
-        },
         "testimonial_h39cXJ": {
           "type": "testimonial",
           "settings": {
@@ -191,13 +135,6 @@
         }
       },
       "block_order": [
-        "testimonial_DkJ6zc",
-        "testimonial_XXnQUC",
-        "testimonial_GCcaV3",
-        "testimonial_JYdfGY",
-        "testimonial_DFGdwH",
-        "testimonial_bAHK4C",
-        "testimonial_6TPHRe",
         "testimonial_h39cXJ",
         "testimonial_CmT9cF",
         "testimonial_XTDwhW",
