@@ -39,6 +39,42 @@
     },
     "stats_GaVH8J": {
       "type": "stats",
+      "blocks": {
+        "stat_W9B98b": {
+          "type": "stat",
+          "settings": {
+            "value": "99.8%",
+            "label": "Precisión"
+          }
+        },
+        "stat_4ijdCg": {
+          "type": "stat",
+          "settings": {
+            "value": "99.8%",
+            "label": "Precisión"
+          }
+        },
+        "stat_KBhMGz": {
+          "type": "stat",
+          "settings": {
+            "value": "99.8%",
+            "label": "Precisión"
+          }
+        },
+        "stat_hUkgMV": {
+          "type": "stat",
+          "settings": {
+            "value": "99.8%",
+            "label": "Precisión"
+          }
+        }
+      },
+      "block_order": [
+        "stat_W9B98b",
+        "stat_4ijdCg",
+        "stat_KBhMGz",
+        "stat_hUkgMV"
+      ],
       "name": "Estadísticas",
       "settings": {
         "badge": "Resultados",
