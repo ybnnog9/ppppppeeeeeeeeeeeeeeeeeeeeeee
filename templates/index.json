@@ -61,14 +61,12 @@
         "button_label": "Suscribirme"
       }
     },
-    "video_hYwpCU": {
-      "type": "video",
-      "name": "Video",
+    "timeline_wPdtbT": {
+      "type": "timeline",
+      "name": "Timeline",
       "settings": {
-        "badge": "Demo",
-        "heading": "Mira cómo funciona",
-        "subheading": "Visualiza el producto en acción.",
-        "video_iframe": "<iframe src=\"https://www.youtube.com/embed/dQw4w9WgXcQ\" allowfullscreen></iframe>"
+        "badge": "Proceso",
+        "heading": "Timeline de protección"
       }
     }
   },
@@ -78,6 +76,6 @@
     "featured",
     "story",
     "newsletter",
-    "video_hYwpCU"
+    "timeline_wPdtbT"
   ]
 }
