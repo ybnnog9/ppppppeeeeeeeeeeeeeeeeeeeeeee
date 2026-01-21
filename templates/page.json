@@ -42,10 +42,31 @@
         "heading": "Más seguridad. Menos preocupaciones.",
         "subheading": ""
       }
+    },
+    "accessories_kBJaAN": {
+      "type": "accessories",
+      "blocks": {
+        "item_JbWxbR": {
+          "type": "item",
+          "settings": {
+            "title": "Kit de instalación",
+            "text": "Complemento ideal para una instalación rápida."
+          }
+        }
+      },
+      "block_order": [
+        "item_JbWxbR"
+      ],
+      "name": "Accesorios",
+      "settings": {
+        "badge": "Accesorios",
+        "heading": "Complementos recomendados"
+      }
     }
   },
   "order": [
     "main",
-    "image_gallery_WH94aT"
+    "image_gallery_WH94aT",
+    "accessories_kBJaAN"
   ]
 }
