@@ -1,0 +1,39 @@
+<section class="section" data-animate>
+  <div class="container">
+    <div class="section-title">
+      <div>
+        <span class="badge">{{ section.settings.badge }}</span>
+        <h2>{{ section.settings.heading }}</h2>
+      </div>
+    </div>
+    <div class="comparison-grid">
+      {% for block in section.blocks %}
+        <article class="comparison-card" {{ block.shopify_attributes }}>
+          <h3>{{ block.settings.title }}</h3>
+          <div>{{ block.settings.content }}</div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Comparativa",
+  "settings": [
+    {"type": "text", "id": "badge", "label": "Etiqueta", "default": "Comparativa"},
+    {"type": "text", "id": "heading", "label": "Título", "default": "DriveGuard vs. otros"}
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Bloque",
+      "settings": [
+        {"type": "text", "id": "title", "label": "Título", "default": "DriveGuard AI"},
+        {"type": "richtext", "id": "content", "label": "Contenido", "default": "<ul><li>IA predictiva</li><li>Alertas instantáneas</li><li>Soporte 24/7</li></ul>"}
+      ]
+    }
+  ],
+  "presets": [{"name": "Comparativa"}]
+}
+{% endschema %}
