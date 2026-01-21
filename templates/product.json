@@ -44,6 +44,18 @@
     },
     "shipping_info_HjWDwj": {
       "type": "shipping-info",
+      "blocks": {
+        "item_qyBVMJ": {
+          "type": "item",
+          "settings": {
+            "title": "24-72h",
+            "text": "Entrega express con tracking en tiempo real."
+          }
+        }
+      },
+      "block_order": [
+        "item_qyBVMJ"
+      ],
       "name": "Envíos",
       "settings": {
         "badge": "ENVIOS:",
