@@ -61,41 +61,28 @@
         "button_label": "Suscribirme"
       }
     },
-    "stats_B8E6K7": {
-      "type": "stats",
-      "blocks": {
-        "stat_WCQqhm": {
-          "type": "stat",
-          "settings": {
-            "value": "99.8%",
-            "label": "Precisión"
-          }
-        },
-        "stat_cUaL38": {
-          "type": "stat",
-          "settings": {
-            "value": "99.8%",
-            "label": "Precisión"
-          }
-        }
-      },
-      "block_order": [
-        "stat_WCQqhm",
-        "stat_cUaL38"
-      ],
-      "name": "Estadísticas",
+    "intro_opening_pnmiPd": {
+      "type": "intro-opening",
+      "name": "Intro Opening (Video)",
       "settings": {
-        "badge": "Resultados",
-        "heading": "Datos en los que confiar"
+        "title": "Bienvenido",
+        "subtitle": "Una experiencia de lujo mecánico",
+        "hint": "Pulsa Entrar para comenzar",
+        "webm_url": "",
+        "mp4_url": "",
+        "allow_skip": true,
+        "start_muted": true,
+        "show_once": true,
+        "storage_key": "intro_opening_seen_v1"
       }
     }
   },
   "order": [
+    "intro_opening_pnmiPd",
     "hero",
     "features",
     "featured",
     "story",
-    "newsletter",
-    "stats_B8E6K7"
+    "newsletter"
   ]
 }
