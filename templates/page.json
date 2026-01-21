@@ -17,6 +17,19 @@
     "image_gallery_WH94aT": {
       "type": "image-gallery",
       "blocks": {
+        "image_N4CWxT": {
+          "type": "image",
+          "settings": {
+            "alt": "Imagen del producto"
+          }
+        },
+        "image_xgxCVR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_21_ene_2026_02_48_37.png",
+            "alt": "Imagen del producto"
+          }
+        },
         "image_xHjwCA": {
           "type": "image",
           "settings": {
@@ -33,6 +46,8 @@
         }
       },
       "block_order": [
+        "image_N4CWxT",
+        "image_xgxCVR",
         "image_xHjwCA",
         "image_FrtDmB"
       ],
@@ -113,40 +128,11 @@
         "heading": "Tecnología que protege en todo momento",
         "subheading": "Arquitectura inteligente, alertas instantáneas y soporte global para mantener tu vehículo seguro."
       }
-    },
-    "image_gallery_7WWrpj": {
-      "type": "image-gallery",
-      "blocks": {
-        "image_CRaQG7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_21_ene_2026_02_48_37.png",
-            "alt": "Imagen del producto"
-          }
-        },
-        "image_A7B4CQ": {
-          "type": "image",
-          "settings": {
-            "alt": "Imagen del producto"
-          }
-        }
-      },
-      "block_order": [
-        "image_CRaQG7",
-        "image_A7B4CQ"
-      ],
-      "name": "Galería de imágenes",
-      "settings": {
-        "badge": "",
-        "heading": "",
-        "subheading": ""
-      }
     }
   },
   "order": [
     "main",
     "image_gallery_WH94aT",
-    "features_grid_fk7Dk4",
-    "image_gallery_7WWrpj"
+    "features_grid_fk7Dk4"
   ]
 }
