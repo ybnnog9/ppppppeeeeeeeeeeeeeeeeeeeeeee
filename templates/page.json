@@ -71,7 +71,6 @@
         },
         "feature_NEAzf9": {
           "type": "feature",
-          "disabled": true,
           "settings": {
             "icon": "🔒",
             "title": "Seguridad total",
@@ -88,7 +87,6 @@
         },
         "feature_ypPBrX": {
           "type": "feature",
-          "disabled": true,
           "settings": {
             "icon": "⚡",
             "title": "Instalación fácil",
@@ -97,7 +95,6 @@
         },
         "feature_n9jWj4": {
           "type": "feature",
-          "disabled": true,
           "settings": {
             "icon": "🌍",
             "title": "Cobertura global",
@@ -106,7 +103,6 @@
         },
         "feature_cFRHWi": {
           "type": "feature",
-          "disabled": true,
           "settings": {
             "icon": "💬",
             "title": "Soporte 24/7",
