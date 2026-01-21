@@ -149,8 +149,8 @@
         "spec_fpEKtm": {
           "type": "spec",
           "settings": {
-            "label": "Resolución",
-            "value": "4K Ultra HD"
+            "label": "🖥️ Pantalla:",
+            "value": "IPS táctil integrada"
           }
         },
         "spec_PrLVLg": {
