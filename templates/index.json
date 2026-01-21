@@ -37,31 +37,54 @@
         "button_label": "Recibir Descuento"
       }
     },
-    "app_showcase_Xk8cNG": {
-      "type": "app-showcase",
-      "blocks": {
-        "feature_a8GQfK": {
-          "type": "feature",
-          "settings": {
-            "title": "Notificaciones instantáneas",
-            "text": "Alertas al instante ante cualquier evento."
-          }
-        }
-      },
-      "block_order": [
-        "feature_a8GQfK"
-      ],
-      "name": "App",
+    "stats_GaVH8J": {
+      "type": "stats",
+      "name": "Estadísticas",
       "settings": {
-        "badge": "App",
-        "heading": "Control total desde el móvil",
-        "subheading": "Alertas, ubicación y reportes en tiempo real."
+        "badge": "Resultados",
+        "heading": "Datos en los que confiar"
+      }
+    },
+    "shipping_info_zVRGUy": {
+      "type": "shipping-info",
+      "name": "Envíos",
+      "settings": {
+        "badge": "Envío",
+        "heading": "Entrega rápida y segura"
+      }
+    },
+    "press_bJzRmR": {
+      "type": "press",
+      "name": "Prensa",
+      "settings": {
+        "badge": "Prensa",
+        "heading": "Nos recomiendan"
+      }
+    },
+    "testimonials_4mNBUc": {
+      "type": "testimonials",
+      "name": "Testimonios",
+      "settings": {
+        "badge": "Reseñas",
+        "heading": "Clientes que confían"
+      }
+    },
+    "timeline_jXrdFx": {
+      "type": "timeline",
+      "name": "Timeline",
+      "settings": {
+        "badge": "Proceso",
+        "heading": "Timeline de protección"
       }
     }
   },
   "order": [
     "hero",
-    "app_showcase_Xk8cNG",
-    "newsletter_UKd7TK"
+    "newsletter_UKd7TK",
+    "stats_GaVH8J",
+    "shipping_info_zVRGUy",
+    "press_bJzRmR",
+    "testimonials_4mNBUc",
+    "timeline_jXrdFx"
   ]
 }
