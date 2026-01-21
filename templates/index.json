@@ -55,6 +55,18 @@
     },
     "press_bJzRmR": {
       "type": "press",
+      "blocks": {
+        "mention_bx9jdU": {
+          "type": "mention",
+          "settings": {
+            "quote": "Una innovación imprescindible en seguridad vehicular.",
+            "source": "AutoTech"
+          }
+        }
+      },
+      "block_order": [
+        "mention_bx9jdU"
+      ],
       "name": "Prensa",
       "settings": {
         "badge": "Prensa",
