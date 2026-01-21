@@ -61,6 +61,38 @@
     "testimonials_mwy4HD": {
       "type": "testimonials",
       "blocks": {
+        "testimonial_fgtHHe": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_47gCL8": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_XBQrNH": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_rqUFpd": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
         "testimonial_CmT9cF": {
           "type": "testimonial",
           "settings": {
@@ -127,6 +159,10 @@
         }
       },
       "block_order": [
+        "testimonial_fgtHHe",
+        "testimonial_47gCL8",
+        "testimonial_XBQrNH",
+        "testimonial_rqUFpd",
         "testimonial_CmT9cF",
         "testimonial_XTDwhW",
         "testimonial_rzBi4B",
