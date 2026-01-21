@@ -63,6 +63,34 @@
     },
     "timeline_wPdtbT": {
       "type": "timeline",
+      "blocks": {
+        "item_8LXRm4": {
+          "type": "item",
+          "settings": {
+            "title": "Activación",
+            "text": "Configura la app en minutos."
+          }
+        },
+        "item_LBqCFV": {
+          "type": "item",
+          "settings": {
+            "title": "Activación",
+            "text": "Configura la app en minutos."
+          }
+        },
+        "item_TWKB4g": {
+          "type": "item",
+          "settings": {
+            "title": "Activación",
+            "text": "Configura la app en minutos."
+          }
+        }
+      },
+      "block_order": [
+        "item_8LXRm4",
+        "item_LBqCFV",
+        "item_TWKB4g"
+      ],
       "name": "Timeline",
       "settings": {
         "badge": "Proceso",
