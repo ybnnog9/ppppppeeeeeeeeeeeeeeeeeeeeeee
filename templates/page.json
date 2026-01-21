@@ -41,10 +41,31 @@
         "heading": "Detalles en alta definición",
         "subheading": "Añade tus imágenes del producto para mostrar cada ángulo y característica clave."
       }
+    },
+    "specs_table_ePr6LL": {
+      "type": "specs-table",
+      "blocks": {
+        "spec_NVXtbJ": {
+          "type": "spec",
+          "settings": {
+            "label": "Resolución",
+            "value": "4K Ultra HD"
+          }
+        }
+      },
+      "block_order": [
+        "spec_NVXtbJ"
+      ],
+      "name": "Especificaciones",
+      "settings": {
+        "badge": "Specs",
+        "heading": "Especificaciones técnicas"
+      }
     }
   },
   "order": [
     "main",
-    "image_gallery_WH94aT"
+    "image_gallery_WH94aT",
+    "specs_table_ePr6LL"
   ]
 }
