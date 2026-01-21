@@ -9,6 +9,22 @@
  */
 {
   "sections": {
+    "intro_opening_pnmiPd": {
+      "type": "intro-opening",
+      "name": "Intro Opening (Video)",
+      "settings": {
+        "title": "Bienvenido",
+        "subtitle": "Una experiencia de lujo mecánico",
+        "hint": "Pulsa Entrar para comenzar",
+        "webm_url": "",
+        "mp4_url": "",
+        "poster": "shopify://shop_images/a5d8995a-fd48-4440-9472-c4d026199f2d.png",
+        "allow_skip": true,
+        "start_muted": false,
+        "show_once": true,
+        "storage_key": "intro_opening_seen_v1"
+      }
+    },
     "hero": {
       "type": "hero",
       "settings": {
@@ -59,21 +75,6 @@
         "heading": "Únete a nuestra comunidad",
         "subheading": "Recibe novedades, lanzamientos y contenido exclusivo directamente en tu correo.",
         "button_label": "Suscribirme"
-      }
-    },
-    "intro_opening_pnmiPd": {
-      "type": "intro-opening",
-      "name": "Intro Opening (Video)",
-      "settings": {
-        "title": "Bienvenido",
-        "subtitle": "Una experiencia de lujo mecánico",
-        "hint": "Pulsa Entrar para comenzar",
-        "webm_url": "",
-        "mp4_url": "",
-        "allow_skip": true,
-        "start_muted": true,
-        "show_once": true,
-        "storage_key": "intro_opening_seen_v1"
       }
     }
   },
