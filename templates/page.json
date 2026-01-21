@@ -35,31 +35,18 @@
         "subheading": ""
       }
     },
-    "testimonials_U3rCeF": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_mnJGBc": {
-          "type": "testimonial",
-          "settings": {
-            "quote": "La instalación fue rápida y la app es increíble.",
-            "name": "María L.",
-            "role": "Conductora"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_mnJGBc"
-      ],
-      "name": "Testimonios",
+    "trust_badges_WzqBcV": {
+      "type": "trust-badges",
+      "name": "Sellos de confianza",
       "settings": {
-        "badge": "Reseñas",
-        "heading": "Clientes que confían"
+        "badge": "Confianza",
+        "heading": "Compra con tranquilidad"
       }
     }
   },
   "order": [
     "main",
     "image_gallery_WH94aT",
-    "testimonials_U3rCeF"
+    "trust_badges_WzqBcV"
   ]
 }
