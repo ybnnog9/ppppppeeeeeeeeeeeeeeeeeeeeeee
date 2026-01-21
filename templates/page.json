@@ -43,30 +43,81 @@
         "subheading": ""
       }
     },
-    "accessories_kBJaAN": {
-      "type": "accessories",
+    "features_grid_fk7Dk4": {
+      "type": "features-grid",
       "blocks": {
-        "item_JbWxbR": {
-          "type": "item",
+        "feature_qXnG7Y": {
+          "type": "feature",
           "settings": {
-            "title": "Kit de instalación",
-            "text": "Complemento ideal para una instalación rápida."
+            "icon": "🤖",
+            "title": "IA inteligente",
+            "text": "Algoritmos que aprenden tu conducción para anticipar riesgos."
+          }
+        },
+        "feature_NEAzf9": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "icon": "🔒",
+            "title": "Seguridad total",
+            "text": "Protección en tiempo real contra robos, accidentes y eventos críticos."
+          }
+        },
+        "feature_DgkyKi": {
+          "type": "feature",
+          "settings": {
+            "icon": "📱",
+            "title": "App móvil",
+            "text": "Monitoreo desde iOS y Android con notificaciones instantáneas."
+          }
+        },
+        "feature_ypPBrX": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "icon": "⚡",
+            "title": "Instalación fácil",
+            "text": "Plug and play sin modificaciones mecánicas complejas."
+          }
+        },
+        "feature_n9jWj4": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "icon": "🌍",
+            "title": "Cobertura global",
+            "text": "Funciona en más de 150 países con soporte multilingüe."
+          }
+        },
+        "feature_cFRHWi": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "icon": "💬",
+            "title": "Soporte 24/7",
+            "text": "Equipo especializado disponible en cualquier momento."
           }
         }
       },
       "block_order": [
-        "item_JbWxbR"
+        "feature_qXnG7Y",
+        "feature_NEAzf9",
+        "feature_DgkyKi",
+        "feature_ypPBrX",
+        "feature_n9jWj4",
+        "feature_cFRHWi"
       ],
-      "name": "Accesorios",
+      "name": "Características",
       "settings": {
-        "badge": "Accesorios",
-        "heading": "Complementos recomendados"
+        "badge": "Características principales",
+        "heading": "Tecnología que protege en todo momento",
+        "subheading": "Arquitectura inteligente, alertas instantáneas y soporte global para mantener tu vehículo seguro."
       }
     }
   },
   "order": [
     "main",
     "image_gallery_WH94aT",
-    "accessories_kBJaAN"
+    "features_grid_fk7Dk4"
   ]
 }
