@@ -161,10 +161,22 @@
         "badge": "Reseñas",
         "heading": ""
       }
+    },
+    "guarantee_7q8yeY": {
+      "type": "guarantee",
+      "name": "Garantía",
+      "settings": {
+        "badge": "Garantía",
+        "heading": "Garantía premium de 24 meses",
+        "text": "Si no estás satisfecho, te devolvemos el dinero en 30 días.",
+        "cta": "Conocer más",
+        "link": ""
+      }
     }
   },
   "order": [
     "main",
-    "testimonials_mwy4HD"
+    "testimonials_mwy4HD",
+    "guarantee_7q8yeY"
   ]
 }
