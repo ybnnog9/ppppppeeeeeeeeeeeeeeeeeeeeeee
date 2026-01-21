@@ -53,28 +53,21 @@
         "heading": "Entrega rápida y segura"
       }
     },
-    "press_bJzRmR": {
-      "type": "press",
+    "testimonials_4mNBUc": {
+      "type": "testimonials",
       "blocks": {
-        "mention_bx9jdU": {
-          "type": "mention",
+        "testimonial_K8GMqD": {
+          "type": "testimonial",
           "settings": {
-            "quote": "Una innovación imprescindible en seguridad vehicular.",
-            "source": "AutoTech"
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
           }
         }
       },
       "block_order": [
-        "mention_bx9jdU"
+        "testimonial_K8GMqD"
       ],
-      "name": "Prensa",
-      "settings": {
-        "badge": "Prensa",
-        "heading": "Nos recomiendan"
-      }
-    },
-    "testimonials_4mNBUc": {
-      "type": "testimonials",
       "name": "Testimonios",
       "settings": {
         "badge": "Reseñas",
@@ -95,7 +88,6 @@
     "newsletter_UKd7TK",
     "stats_GaVH8J",
     "shipping_info_zVRGUy",
-    "press_bJzRmR",
     "testimonials_4mNBUc",
     "timeline_jXrdFx"
   ]
