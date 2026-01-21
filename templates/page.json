@@ -101,23 +101,14 @@
         "subheading": ""
       }
     },
-    "floating_cta_FxWLcH": {
-      "type": "floating-cta",
-      "name": "CTA flotante",
-      "settings": {
-        "text": "¿Listo para proteger tu vehículo?",
-        "cta": "Comprar",
-        "link": ""
-      }
-    },
     "specs_table_KDttpm": {
       "type": "specs-table",
       "blocks": {
         "spec_NcL3Ww": {
           "type": "spec",
           "settings": {
-            "label": "Resolución",
-            "value": "4K Ultra HD"
+            "label": "🎥 Resolución:",
+            "value": "3840×2160 (4K)"
           }
         },
         "spec_AhDH3g": {
@@ -185,6 +176,15 @@
         "badge": "Specs",
         "heading": "Especificaciones técnicas"
       }
+    },
+    "floating_cta_FxWLcH": {
+      "type": "floating-cta",
+      "name": "CTA flotante",
+      "settings": {
+        "text": "¿Listo para proteger tu vehículo?",
+        "cta": "Comprar",
+        "link": ""
+      }
     }
   },
   "order": [
@@ -192,7 +192,7 @@
     "main",
     "rich_text_MaQQqF",
     "image_gallery_WH94aT",
-    "floating_cta_FxWLcH",
-    "specs_table_KDttpm"
+    "specs_table_KDttpm",
+    "floating_cta_FxWLcH"
   ]
 }
