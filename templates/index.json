@@ -28,15 +28,6 @@
         "image": "shopify://shop_images/a5d8995a-fd48-4440-9472-c4d026199f2d.png"
       }
     },
-    "newsletter_UKd7TK": {
-      "type": "newsletter",
-      "name": "Newsletter",
-      "settings": {
-        "heading": "Mejoras, lanzamientos y 10% menos",
-        "subheading": "Suscríbete para recibir un 10% de descuento y actualizaciones importantes cuando haya novedades.",
-        "button_label": "Recibir Descuento"
-      }
-    },
     "stats_GaVH8J": {
       "type": "stats",
       "blocks": {
@@ -220,13 +211,22 @@
         "badge": "Reseñas",
         "heading": "Clientes que confían"
       }
+    },
+    "newsletter_UKd7TK": {
+      "type": "newsletter",
+      "name": "Newsletter",
+      "settings": {
+        "heading": "Mejoras, lanzamientos y 10% menos",
+        "subheading": "Suscríbete para recibir un 10% de descuento y actualizaciones importantes cuando haya novedades.",
+        "button_label": "Recibir Descuento"
+      }
     }
   },
   "order": [
     "hero",
-    "newsletter_UKd7TK",
     "stats_GaVH8J",
     "shipping_info_zVRGUy",
-    "testimonials_4mNBUc"
+    "testimonials_4mNBUc",
+    "newsletter_UKd7TK"
   ]
 }
