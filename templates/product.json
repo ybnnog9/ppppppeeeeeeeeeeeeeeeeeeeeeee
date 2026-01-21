@@ -1,11 +1,80 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
-      "type": "main-product"
+      "type": "main-product",
+      "settings": {
+        "badge": "Nuevo lanzamiento",
+        "eyebrow": "Seguridad inteligente",
+        "subheading": "Monitoriza tu vehículo con IA avanzada, detección de impactos y alertas instantáneas desde la app móvil.",
+        "primary_cta": "Comprar ahora",
+        "shipping_text": "Envío gratis en 24-72h + tracking en tiempo real.",
+        "guarantee_text": "Garantía premium de 24 meses y soporte 24/7.",
+        "benefits_heading": "Lo que incluye",
+        "benefits_list": "<ul><li>Detección de impacto inteligente</li><li>App móvil con alertas instantáneas</li><li>Instalación rápida y soporte continuo</li></ul>"
+      }
     },
     "gallery": {
-      "type": "image-gallery"
+      "type": "image-gallery",
+      "blocks": {
+        "image_FQ9aUB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_21_ene_2026_02_45_01.png",
+            "alt": "Imagen del producto"
+          }
+        },
+        "image_nQxDmR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_21_ene_2026_02_48_37.png",
+            "alt": "Imagen del producto"
+          }
+        },
+        "image_Uir3xy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_21_ene_2026_02_51_18.png",
+            "alt": "Imagen del producto"
+          }
+        },
+        "image_X7UE6x": {
+          "type": "image",
+          "settings": {
+            "alt": "Imagen del producto"
+          }
+        },
+        "image_Pb7LLD": {
+          "type": "image",
+          "settings": {
+            "alt": "Imagen del producto"
+          }
+        }
+      },
+      "block_order": [
+        "image_FQ9aUB",
+        "image_nQxDmR",
+        "image_Uir3xy",
+        "image_X7UE6x",
+        "image_Pb7LLD"
+      ],
+      "settings": {
+        "badge": "Galería",
+        "heading": "Detalles en alta definición",
+        "subheading": "Añade tus imágenes del producto para mostrar cada ángulo y característica clave."
+      }
     }
   },
-  "order": ["main", "gallery"]
+  "order": [
+    "main",
+    "gallery"
+  ]
 }
