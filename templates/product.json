@@ -62,6 +62,42 @@
         "heading": ""
       }
     },
+    "trust_badges_WrX6t8": {
+      "type": "trust-badges",
+      "blocks": {
+        "badge_rRXJHx": {
+          "type": "badge",
+          "settings": {
+            "title": "Pago seguro",
+            "text": "Transacciones protegidas y cifradas."
+          }
+        },
+        "badge_nzkxrJ": {
+          "type": "badge",
+          "settings": {
+            "title": "Envío con seguimiento",
+            "text": "Tracking disponible desde la salida hasta la entrega."
+          }
+        },
+        "badge_GfQxWy": {
+          "type": "badge",
+          "settings": {
+            "title": "Devolución sencilla",
+            "text": "Proceso rápido y sin complicaciones."
+          }
+        }
+      },
+      "block_order": [
+        "badge_rRXJHx",
+        "badge_nzkxrJ",
+        "badge_GfQxWy"
+      ],
+      "name": "Sellos de confianza",
+      "settings": {
+        "badge": "Tu compra, bien cuidada.",
+        "heading": ""
+      }
+    },
     "testimonials_mwy4HD": {
       "type": "testimonials",
       "blocks": {
@@ -178,43 +214,7 @@
       ],
       "name": "Testimonios",
       "settings": {
-        "badge": "",
-        "heading": ""
-      }
-    },
-    "trust_badges_WrX6t8": {
-      "type": "trust-badges",
-      "blocks": {
-        "badge_rRXJHx": {
-          "type": "badge",
-          "settings": {
-            "title": "Pago seguro",
-            "text": "Transacciones protegidas y cifradas."
-          }
-        },
-        "badge_nzkxrJ": {
-          "type": "badge",
-          "settings": {
-            "title": "Envío con seguimiento",
-            "text": "Tracking disponible desde la salida hasta la entrega."
-          }
-        },
-        "badge_GfQxWy": {
-          "type": "badge",
-          "settings": {
-            "title": "Devolución sencilla",
-            "text": "Proceso rápido y sin complicaciones."
-          }
-        }
-      },
-      "block_order": [
-        "badge_rRXJHx",
-        "badge_nzkxrJ",
-        "badge_GfQxWy"
-      ],
-      "name": "Sellos de confianza",
-      "settings": {
-        "badge": "Tu compra, bien cuidada.",
+        "badge": "RESEÑAS",
         "heading": ""
       }
     },
@@ -231,8 +231,8 @@
   "order": [
     "main",
     "shipping_info_HjWDwj",
-    "testimonials_mwy4HD",
     "trust_badges_WrX6t8",
+    "testimonials_mwy4HD",
     "timeline_9HdJHm"
   ]
 }
