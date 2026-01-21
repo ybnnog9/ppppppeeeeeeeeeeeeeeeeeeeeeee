@@ -20,6 +20,7 @@
         "image_N4CWxT": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_21_ene_2026_03_02_35.png",
             "alt": "Imagen del producto"
           }
         },
