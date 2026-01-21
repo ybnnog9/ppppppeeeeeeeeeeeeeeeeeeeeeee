@@ -34,10 +34,32 @@
         "heading": "Más seguridad. Menos preocupaciones.",
         "subheading": ""
       }
+    },
+    "testimonials_U3rCeF": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_mnJGBc": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_mnJGBc"
+      ],
+      "name": "Testimonios",
+      "settings": {
+        "badge": "Reseñas",
+        "heading": "Clientes que confían"
+      }
     }
   },
   "order": [
     "main",
-    "image_gallery_WH94aT"
+    "image_gallery_WH94aT",
+    "testimonials_U3rCeF"
   ]
 }
