@@ -9,22 +9,6 @@
  */
 {
   "sections": {
-    "intro_opening_pnmiPd": {
-      "type": "intro-opening",
-      "name": "Intro Opening (Video)",
-      "settings": {
-        "title": "Bienvenido",
-        "subtitle": "Una experiencia de lujo mecánico",
-        "hint": "Pulsa Entrar para comenzar",
-        "webm_url": "",
-        "mp4_url": "",
-        "poster": "shopify://shop_images/a5d8995a-fd48-4440-9472-c4d026199f2d.png",
-        "allow_skip": true,
-        "start_muted": false,
-        "show_once": true,
-        "storage_key": "intro_opening_seen_v1"
-      }
-    },
     "hero": {
       "type": "hero",
       "settings": {
@@ -40,50 +24,12 @@
         "stat_two_value": "24/7",
         "stat_two_label": "Protección",
         "stat_three_value": "+50K",
-        "stat_three_label": "Usuarios"
-      }
-    },
-    "features": {
-      "type": "features-grid",
-      "settings": {
-        "badge": "Características principales",
-        "heading": "Tecnología que protege en todo momento",
-        "subheading": "Arquitectura inteligente, alertas instantáneas y soporte global para mantener tu vehículo seguro."
-      }
-    },
-    "featured": {
-      "type": "featured-collection",
-      "settings": {
-        "badge": "Lo mejor de la temporada",
-        "heading": "Productos imprescindibles",
-        "collection": "",
-        "limit": 4,
-        "cta_label": "Ver colección",
-        "cta_link": ""
-      }
-    },
-    "story": {
-      "type": "rich-text",
-      "settings": {
-        "heading": "Una historia que conecta",
-        "content": "<p>Comparte la esencia de tu marca con una narrativa cuidada, beneficios claros y valores que inspiran confianza.</p>"
-      }
-    },
-    "newsletter": {
-      "type": "newsletter",
-      "settings": {
-        "heading": "Únete a nuestra comunidad",
-        "subheading": "Recibe novedades, lanzamientos y contenido exclusivo directamente en tu correo.",
-        "button_label": "Suscribirme"
+        "stat_three_label": "Usuarios",
+        "image": "shopify://shop_images/a5d8995a-fd48-4440-9472-c4d026199f2d.png"
       }
     }
   },
   "order": [
-    "intro_opening_pnmiPd",
-    "hero",
-    "features",
-    "featured",
-    "story",
-    "newsletter"
+    "hero"
   ]
 }
