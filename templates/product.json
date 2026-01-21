@@ -58,7 +58,7 @@
       ],
       "name": "Envíos",
       "settings": {
-        "badge": "ENVIOS:",
+        "badge": "Envíos:",
         "heading": ""
       }
     },
@@ -214,7 +214,7 @@
       ],
       "name": "Testimonios",
       "settings": {
-        "badge": "RESEÑAS",
+        "badge": "Reseñas",
         "heading": ""
       }
     },
