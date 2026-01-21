@@ -17,6 +17,13 @@
     "image_gallery_WH94aT": {
       "type": "image-gallery",
       "blocks": {
+        "image_xHjwCA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_21_ene_2026_02_45_01.png",
+            "alt": "Imagen del producto"
+          }
+        },
         "image_FrtDmB": {
           "type": "image",
           "settings": {
@@ -26,6 +33,7 @@
         }
       },
       "block_order": [
+        "image_xHjwCA",
         "image_FrtDmB"
       ],
       "name": "Galería de imágenes",
@@ -34,19 +42,10 @@
         "heading": "Más seguridad. Menos preocupaciones.",
         "subheading": ""
       }
-    },
-    "trust_badges_WzqBcV": {
-      "type": "trust-badges",
-      "name": "Sellos de confianza",
-      "settings": {
-        "badge": "Confianza",
-        "heading": "Compra con tranquilidad"
-      }
     }
   },
   "order": [
     "main",
-    "image_gallery_WH94aT",
-    "trust_badges_WzqBcV"
+    "image_gallery_WH94aT"
   ]
 }
