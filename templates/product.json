@@ -21,60 +21,9 @@
         "benefits_heading": "Lo que incluye",
         "benefits_list": "<ul><li>Detección de impacto inteligente</li><li>App móvil con alertas instantáneas</li><li>Instalación rápida y soporte continuo</li></ul>"
       }
-    },
-    "gallery": {
-      "type": "image-gallery",
-      "blocks": {
-        "image_FQ9aUB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_21_ene_2026_02_45_01.png",
-            "alt": "Imagen del producto"
-          }
-        },
-        "image_nQxDmR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_21_ene_2026_02_48_37.png",
-            "alt": "Imagen del producto"
-          }
-        },
-        "image_Uir3xy": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_21_ene_2026_02_51_18.png",
-            "alt": "Imagen del producto"
-          }
-        },
-        "image_X7UE6x": {
-          "type": "image",
-          "settings": {
-            "alt": "Imagen del producto"
-          }
-        },
-        "image_Pb7LLD": {
-          "type": "image",
-          "settings": {
-            "alt": "Imagen del producto"
-          }
-        }
-      },
-      "block_order": [
-        "image_FQ9aUB",
-        "image_nQxDmR",
-        "image_Uir3xy",
-        "image_X7UE6x",
-        "image_Pb7LLD"
-      ],
-      "settings": {
-        "badge": "Galería",
-        "heading": "Detalles en alta definición",
-        "subheading": "Añade tus imágenes del producto para mostrar cada ángulo y característica clave."
-      }
     }
   },
   "order": [
-    "main",
-    "gallery"
+    "main"
   ]
 }
