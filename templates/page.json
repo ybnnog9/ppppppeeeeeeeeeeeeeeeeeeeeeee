@@ -87,8 +87,8 @@
       ],
       "name": "Galería de imágenes",
       "settings": {
-        "badge": "Informacion De DriveGuard X",
-        "heading": "Más seguridad. Menos preocupaciones.",
+        "badge": "Más seguridad. Menos preocupaciones.",
+        "heading": "",
         "subheading": ""
       }
     },
