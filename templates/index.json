@@ -61,15 +61,32 @@
         "button_label": "Suscribirme"
       }
     },
-    "callout_banner_iFGtqC": {
-      "type": "callout-banner",
-      "name": "Banner",
+    "accessories_Jprwcj": {
+      "type": "accessories",
+      "blocks": {
+        "item_8gpHVx": {
+          "type": "item",
+          "settings": {
+            "title": "Kit de instalación",
+            "text": "Complemento ideal para una instalación rápida."
+          }
+        },
+        "item_MXAX3j": {
+          "type": "item",
+          "settings": {
+            "title": "Kit de instalación",
+            "text": "Complemento ideal para una instalación rápida."
+          }
+        }
+      },
+      "block_order": [
+        "item_8gpHVx",
+        "item_MXAX3j"
+      ],
+      "name": "Accesorios",
       "settings": {
-        "badge": "Oferta",
-        "heading": "Oferta limitada",
-        "text": "Consigue tu DriveGuard con descuento hoy.",
-        "cta": "Comprar ahora",
-        "link": ""
+        "badge": "Accesorios",
+        "heading": "Complementos recomendados"
       }
     }
   },
@@ -79,6 +96,6 @@
     "featured",
     "story",
     "newsletter",
-    "callout_banner_iFGtqC"
+    "accessories_Jprwcj"
   ]
 }
