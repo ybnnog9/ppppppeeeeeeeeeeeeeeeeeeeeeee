@@ -1,0 +1,73 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "settings": {
+        "badge": "DriveGuard AI™",
+        "heading": "Seguridad inteligente para tu vehículo",
+        "subheading": "Protege tu vehículo con IA de última generación y monitoreo continuo en tiempo real desde cualquier lugar.",
+        "primary_label": "Comprar ahora",
+        "primary_link": "",
+        "secondary_label": "Más información",
+        "secondary_link": "",
+        "stat_one_value": "99.8%",
+        "stat_one_label": "Precisión",
+        "stat_two_value": "24/7",
+        "stat_two_label": "Protección",
+        "stat_three_value": "+50K",
+        "stat_three_label": "Usuarios",
+        "image": "shopify://shop_images/ChatGPT_Image_20_ene_2026_01_48_52_d3ac8833-a603-44b6-925f-a40bd1e8dbe1.png"
+      }
+    },
+    "features": {
+      "type": "features-grid",
+      "settings": {
+        "badge": "Características principales",
+        "heading": "Tecnología que protege en todo momento",
+        "subheading": "Arquitectura inteligente, alertas instantáneas y soporte global para mantener tu vehículo seguro."
+      }
+    },
+    "featured": {
+      "type": "featured-collection",
+      "settings": {
+        "badge": "Lo mejor de la temporada",
+        "heading": "Productos imprescindibles",
+        "collection": "",
+        "limit": 4,
+        "cta_label": "Ver colección",
+        "cta_link": ""
+      }
+    },
+    "story": {
+      "type": "rich-text",
+      "settings": {
+        "heading": "Una historia que conecta",
+        "content": "<p>Comparte la esencia de tu marca con una narrativa cuidada, beneficios claros y valores que inspiran confianza.</p>"
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+        "heading": "Únete a nuestra comunidad",
+        "subheading": "Recibe novedades, lanzamientos y contenido exclusivo directamente en tu correo.",
+        "button_label": "Suscribirme"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "features",
+    "featured",
+    "story",
+    "newsletter"
+  ]
+}
