@@ -32,9 +32,9 @@
       "type": "newsletter",
       "name": "Newsletter",
       "settings": {
-        "heading": "Acceso exclusivo y 10% de descuento",
-        "subheading": "Suscríbete y recibe un 10% de descuento en tu primera compra, además de novedades y lanzamientos.",
-        "button_label": "Unirme"
+        "heading": "Mejoras, lanzamientos y 10% menos",
+        "subheading": "Suscríbete para recibir un 10% de descuento y actualizaciones importantes cuando haya novedades.",
+        "button_label": "Recibir descuento"
       }
     }
   },
