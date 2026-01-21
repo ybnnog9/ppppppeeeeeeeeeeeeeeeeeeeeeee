@@ -1,0 +1,39 @@
+<section class="section" data-animate>
+  <div class="container">
+    <div class="section-title">
+      <div>
+        <span class="badge">{{ section.settings.badge }}</span>
+        <h2>{{ section.settings.heading }}</h2>
+      </div>
+    </div>
+    <div class="steps-grid">
+      {% for block in section.blocks %}
+        <div class="stat-card" {{ block.shopify_attributes }}>
+          <h3>{{ block.settings.title }}</h3>
+          <p>{{ block.settings.text }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Pasos",
+  "settings": [
+    {"type": "text", "id": "badge", "label": "Etiqueta", "default": "Pasos"},
+    {"type": "text", "id": "heading", "label": "Título", "default": "Cómo se instala"}
+  ],
+  "blocks": [
+    {
+      "type": "step",
+      "name": "Paso",
+      "settings": [
+        {"type": "text", "id": "title", "label": "Título", "default": "Paso 1"},
+        {"type": "textarea", "id": "text", "label": "Descripción", "default": "Conecta el dispositivo al vehículo."}
+      ]
+    }
+  ],
+  "presets": [{"name": "Pasos"}]
+}
+{% endschema %}
