@@ -192,6 +192,15 @@
         "cta": "Comprar Ahora",
         "link": "shopify://products/10-11-26-4k-adas-dvr-wireless-carplay-android-auto-dash-cam-bluetooth-audio-gps-navigation-dashboard-dual-lens-video-recorder"
       }
+    },
+    "newsletter_mApR6d": {
+      "type": "newsletter",
+      "name": "Newsletter",
+      "settings": {
+        "heading": "Acceso exclusivo y 10% de descuento",
+        "subheading": "Suscríbete y recibe un 10% de descuento en tu primera compra, además de novedades y lanzamientos.",
+        "button_label": "Obtener 10%"
+      }
     }
   },
   "order": [
@@ -199,6 +208,7 @@
     "main",
     "image_gallery_WH94aT",
     "specs_table_KDttpm",
-    "floating_cta_FxWLcH"
+    "floating_cta_FxWLcH",
+    "newsletter_mApR6d"
   ]
 }
