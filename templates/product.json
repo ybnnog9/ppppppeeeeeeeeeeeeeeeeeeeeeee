@@ -61,22 +61,6 @@
     "testimonials_mwy4HD": {
       "type": "testimonials",
       "blocks": {
-        "testimonial_4CmTwX": {
-          "type": "testimonial",
-          "settings": {
-            "quote": "La instalación fue rápida y la app es increíble.",
-            "name": "María L.",
-            "role": "Conductora"
-          }
-        },
-        "testimonial_MfJaWB": {
-          "type": "testimonial",
-          "settings": {
-            "quote": "La instalación fue rápida y la app es increíble.",
-            "name": "María L.",
-            "role": "Conductora"
-          }
-        },
         "testimonial_DkJ6zc": {
           "type": "testimonial",
           "settings": {
@@ -207,8 +191,6 @@
         }
       },
       "block_order": [
-        "testimonial_4CmTwX",
-        "testimonial_MfJaWB",
         "testimonial_DkJ6zc",
         "testimonial_XXnQUC",
         "testimonial_GCcaV3",
