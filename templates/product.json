@@ -181,11 +181,32 @@
         "badge": "Reseñas",
         "heading": ""
       }
+    },
+    "icon_list_aVFbJU": {
+      "type": "icon-list",
+      "blocks": {
+        "item_f8n4XY": {
+          "type": "item",
+          "settings": {
+            "title": "Protección total",
+            "text": "Cobertura en tiempo real."
+          }
+        }
+      },
+      "block_order": [
+        "item_f8n4XY"
+      ],
+      "name": "Lista de iconos",
+      "settings": {
+        "badge": "Beneficios",
+        "heading": "Ventajas clave"
+      }
     }
   },
   "order": [
     "main",
     "shipping_info_HjWDwj",
-    "testimonials_mwy4HD"
+    "testimonials_mwy4HD",
+    "icon_list_aVFbJU"
   ]
 }
