@@ -23,26 +23,10 @@
             "image": "shopify://shop_images/ChatGPT_Image_21_ene_2026_02_51_18.png",
             "alt": "Imagen del producto"
           }
-        },
-        "image_DgahMX": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_21_ene_2026_02_45_01.png",
-            "alt": "Imagen del producto"
-          }
-        },
-        "image_CFy6fD": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_21_ene_2026_02_48_37.png",
-            "alt": "Imagen del producto"
-          }
         }
       },
       "block_order": [
-        "image_FrtDmB",
-        "image_DgahMX",
-        "image_CFy6fD"
+        "image_FrtDmB"
       ],
       "name": "Galería de imágenes",
       "settings": {
