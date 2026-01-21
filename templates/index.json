@@ -47,6 +47,18 @@
     },
     "shipping_info_zVRGUy": {
       "type": "shipping-info",
+      "blocks": {
+        "item_dn6Gee": {
+          "type": "item",
+          "settings": {
+            "title": "24-72h",
+            "text": "Entrega express con tracking en tiempo real."
+          }
+        }
+      },
+      "block_order": [
+        "item_dn6Gee"
+      ],
       "name": "Envíos",
       "settings": {
         "badge": "Envío",
@@ -172,14 +184,6 @@
         "badge": "Reseñas",
         "heading": "Clientes que confían"
       }
-    },
-    "timeline_jXrdFx": {
-      "type": "timeline",
-      "name": "Timeline",
-      "settings": {
-        "badge": "Proceso",
-        "heading": "Timeline de protección"
-      }
     }
   },
   "order": [
@@ -187,7 +191,6 @@
     "newsletter_UKd7TK",
     "stats_GaVH8J",
     "shipping_info_zVRGUy",
-    "testimonials_4mNBUc",
-    "timeline_jXrdFx"
+    "testimonials_4mNBUc"
   ]
 }
