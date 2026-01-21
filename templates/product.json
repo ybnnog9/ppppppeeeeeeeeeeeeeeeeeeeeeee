@@ -44,18 +44,6 @@
     },
     "shipping_info_HjWDwj": {
       "type": "shipping-info",
-      "blocks": {
-        "item_XfqT8K": {
-          "type": "item",
-          "settings": {
-            "title": "24-72h",
-            "text": "Entrega express con tracking en tiempo real."
-          }
-        }
-      },
-      "block_order": [
-        "item_XfqT8K"
-      ],
       "name": "Envíos",
       "settings": {
         "badge": "Envío gratis en 7–14 días con número de seguimiento.",
