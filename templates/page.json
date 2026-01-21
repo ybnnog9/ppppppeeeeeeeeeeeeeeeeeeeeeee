@@ -104,6 +104,13 @@
     "specs_table_KDttpm": {
       "type": "specs-table",
       "blocks": {
+        "spec_Gi47M6": {
+          "type": "spec",
+          "settings": {
+            "label": "📏 Tamaño pantalla:",
+            "value": "11.26\""
+          }
+        },
         "spec_NcL3Ww": {
           "type": "spec",
           "settings": {
@@ -162,6 +169,7 @@
         }
       },
       "block_order": [
+        "spec_Gi47M6",
         "spec_NcL3Ww",
         "spec_AhDH3g",
         "spec_6Uan7F",
