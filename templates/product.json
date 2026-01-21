@@ -12,21 +12,7 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "highlight_qjEiYP": {
-          "type": "highlight",
-          "settings": {
-            "title": "IA predictiva",
-            "text": "Analiza patrones de conducción para anticipar riesgos y enviar alertas preventivas."
-          }
-        },
         "highlight_zgQXLY": {
-          "type": "highlight",
-          "settings": {
-            "title": "IA predictiva",
-            "text": "Analiza patrones de conducción para anticipar riesgos y enviar alertas preventivas."
-          }
-        },
-        "highlight_BQyMVz": {
           "type": "highlight",
           "settings": {
             "title": "IA predictiva",
@@ -42,9 +28,7 @@
         }
       },
       "block_order": [
-        "highlight_qjEiYP",
         "highlight_zgQXLY",
-        "highlight_BQyMVz",
         "highlight_aqERCq"
       ],
       "settings": {
