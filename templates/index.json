@@ -57,15 +57,15 @@
         "stat_KBhMGz": {
           "type": "stat",
           "settings": {
-            "value": "99.8%",
-            "label": "Precisión"
+            "value": "Puesta en marcha rápida",
+            "label": "Instalar y listo"
           }
         },
         "stat_hUkgMV": {
           "type": "stat",
           "settings": {
-            "value": "99.8%",
-            "label": "Precisión"
+            "value": "Conectividad",
+            "label": "Wi-Fi + Bluetooth + GPS externo"
           }
         }
       },
