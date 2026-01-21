@@ -1,0 +1,41 @@
+<section class="section" data-animate>
+  <div class="container">
+    <div class="section-title section-title--center">
+      <div>
+        <span class="badge">{{ section.settings.badge }}</span>
+        <h2>{{ section.settings.heading }}</h2>
+        <p class="section-subtitle">{{ section.settings.subheading }}</p>
+      </div>
+    </div>
+    <div class="app-grid">
+      {% for block in section.blocks %}
+        <div class="app-card" {{ block.shopify_attributes }}>
+          <h3>{{ block.settings.title }}</h3>
+          <p>{{ block.settings.text }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "App",
+  "settings": [
+    {"type": "text", "id": "badge", "label": "Etiqueta", "default": "App"},
+    {"type": "text", "id": "heading", "label": "Título", "default": "Control total desde el móvil"},
+    {"type": "textarea", "id": "subheading", "label": "Subtítulo", "default": "Alertas, ubicación y reportes en tiempo real."}
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Función",
+      "settings": [
+        {"type": "text", "id": "title", "label": "Título", "default": "Notificaciones instantáneas"},
+        {"type": "textarea", "id": "text", "label": "Texto", "default": "Alertas al instante ante cualquier evento."}
+      ]
+    }
+  ],
+  "presets": [{"name": "App"}]
+}
+{% endschema %}

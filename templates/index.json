@@ -1,0 +1,212 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "settings": {
+        "badge": "DriveGuard AI™",
+        "heading": "DriveGuard X",
+        "subheading": "",
+        "primary_label": "Ver Producto",
+        "primary_link": "shopify://products/10-11-26-4k-adas-dvr-wireless-carplay-android-auto-dash-cam-bluetooth-audio-gps-navigation-dashboard-dual-lens-video-recorder",
+        "secondary_label": "Más información",
+        "secondary_link": "shopify://pages/informacion",
+        "stat_one_value": "99.8%",
+        "stat_one_label": "Precisión",
+        "stat_two_value": "24/7",
+        "stat_two_label": "Protección",
+        "stat_three_value": "+25K",
+        "stat_three_label": "Usuarios",
+        "image": "shopify://shop_images/ChatGPT_Image_21_ene_2026_03_50_51.png"
+      }
+    },
+    "stats_GaVH8J": {
+      "type": "stats",
+      "blocks": {
+        "stat_W9B98b": {
+          "type": "stat",
+          "settings": {
+            "value": "Conduce más tranquilo",
+            "label": "Asistencia y alertas inteligentes"
+          }
+        },
+        "stat_4ijdCg": {
+          "type": "stat",
+          "settings": {
+            "value": "Protección 24/7",
+            "label": "Vigilancia cuando no estás"
+          }
+        },
+        "stat_KBhMGz": {
+          "type": "stat",
+          "settings": {
+            "value": "Puesta en marcha rápida",
+            "label": "Instalar y listo"
+          }
+        },
+        "stat_hUkgMV": {
+          "type": "stat",
+          "settings": {
+            "value": "Conectividad",
+            "label": "Wi-Fi + Bluetooth + GPS externo"
+          }
+        }
+      },
+      "block_order": [
+        "stat_W9B98b",
+        "stat_4ijdCg",
+        "stat_KBhMGz",
+        "stat_hUkgMV"
+      ],
+      "name": "Estadísticas",
+      "settings": {
+        "badge": "Beneficios",
+        "heading": ""
+      }
+    },
+    "testimonials_4mNBUc": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_8Fw9fi": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_WCwJMz": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_rRGMJn": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_gTerGR": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_8pRwd9": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_4wdQyb": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_ccP8m8": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_KjDAJM": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_3cnTVL": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_BKdPM4": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_MDiX7m": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_K8GMqD": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_8Fw9fi",
+        "testimonial_WCwJMz",
+        "testimonial_rRGMJn",
+        "testimonial_gTerGR",
+        "testimonial_8pRwd9",
+        "testimonial_4wdQyb",
+        "testimonial_ccP8m8",
+        "testimonial_KjDAJM",
+        "testimonial_3cnTVL",
+        "testimonial_BKdPM4",
+        "testimonial_MDiX7m",
+        "testimonial_K8GMqD"
+      ],
+      "disabled": true,
+      "name": "Testimonios",
+      "settings": {
+        "badge": "Reseñas",
+        "heading": "Clientes que confían"
+      }
+    },
+    "newsletter_UKd7TK": {
+      "type": "newsletter",
+      "name": "Newsletter",
+      "settings": {
+        "heading": "Mejoras, lanzamientos y 10% menos",
+        "subheading": "Suscríbete para recibir un 10% de descuento y actualizaciones importantes cuando haya novedades.",
+        "button_label": "Recibir Descuento"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "stats_GaVH8J",
+    "testimonials_4mNBUc",
+    "newsletter_UKd7TK"
+  ]
+}

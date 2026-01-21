@@ -1,0 +1,39 @@
+<section class="section" data-animate>
+  <div class="container">
+    <div class="section-title">
+      <div>
+        <span class="badge">{{ section.settings.badge }}</span>
+        <h2>{{ section.settings.heading }}</h2>
+      </div>
+    </div>
+    <div class="timeline-grid">
+      {% for block in section.blocks %}
+        <div class="timeline-card" {{ block.shopify_attributes }}>
+          <h3>{{ block.settings.title }}</h3>
+          <p>{{ block.settings.text }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Timeline",
+  "settings": [
+    {"type": "text", "id": "badge", "label": "Etiqueta", "default": "Proceso"},
+    {"type": "text", "id": "heading", "label": "Título", "default": "Timeline de protección"}
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Paso",
+      "settings": [
+        {"type": "text", "id": "title", "label": "Título", "default": "Activación"},
+        {"type": "textarea", "id": "text", "label": "Texto", "default": "Configura la app en minutos."}
+      ]
+    }
+  ],
+  "presets": [{"name": "Timeline"}]
+}
+{% endschema %}

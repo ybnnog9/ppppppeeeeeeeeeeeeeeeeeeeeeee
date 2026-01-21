@@ -1,0 +1,204 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "features_grid_fk7Dk4": {
+      "type": "features-grid",
+      "blocks": {
+        "feature_qXnG7Y": {
+          "type": "feature",
+          "settings": {
+            "icon": "🤖",
+            "title": "IA inteligente",
+            "text": "Algoritmos que aprenden tu conducción para anticipar riesgos."
+          }
+        },
+        "feature_DgkyKi": {
+          "type": "feature",
+          "settings": {
+            "icon": "📱",
+            "title": "App móvil",
+            "text": "Monitoreo desde iOS y Android con notificaciones instantáneas."
+          }
+        },
+        "feature_ypPBrX": {
+          "type": "feature",
+          "settings": {
+            "icon": "⚡",
+            "title": "Instalación fácil",
+            "text": "Plug and play sin modificaciones mecánicas complejas."
+          }
+        },
+        "feature_n9jWj4": {
+          "type": "feature",
+          "settings": {
+            "icon": "🌍",
+            "title": "Cobertura global",
+            "text": "Funciona en más de 150 países con soporte multilingüe."
+          }
+        }
+      },
+      "block_order": [
+        "feature_qXnG7Y",
+        "feature_DgkyKi",
+        "feature_ypPBrX",
+        "feature_n9jWj4"
+      ],
+      "name": "Características",
+      "settings": {
+        "badge": "Seguridad avanzada para tu vehículo",
+        "heading": "Instala, conecta y listo: monitoriza tu conducción y mantén tu vehículo siempre bajo control.",
+        "subheading": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "image_gallery_WH94aT": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_xHjwCA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_21_ene_2026_02_45_01.png",
+            "alt": "Imagen del producto"
+          }
+        },
+        "image_FrtDmB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_21_ene_2026_02_51_18.png",
+            "alt": "Imagen del producto"
+          }
+        }
+      },
+      "block_order": [
+        "image_xHjwCA",
+        "image_FrtDmB"
+      ],
+      "name": "Galería de imágenes",
+      "settings": {
+        "badge": "Más seguridad. Menos preocupaciones.",
+        "heading": "",
+        "subheading": ""
+      }
+    },
+    "specs_table_KDttpm": {
+      "type": "specs-table",
+      "blocks": {
+        "spec_jqUrpb": {
+          "type": "spec",
+          "settings": {
+            "label": "🚗 Funciones:",
+            "value": "ADAS, cámara trasera, grabación en bucle, G-Sensor, movimiento, parking monitor, control por voz, WDR"
+          }
+        },
+        "spec_Gi47M6": {
+          "type": "spec",
+          "settings": {
+            "label": "📏 Tamaño pantalla:",
+            "value": "11.26\""
+          }
+        },
+        "spec_NcL3Ww": {
+          "type": "spec",
+          "settings": {
+            "label": "🎥 Resolución:",
+            "value": "3840×2160 (4K)"
+          }
+        },
+        "spec_AhDH3g": {
+          "type": "spec",
+          "settings": {
+            "label": "🎞️ FPS:",
+            "value": "30"
+          }
+        },
+        "spec_6Uan7F": {
+          "type": "spec",
+          "settings": {
+            "label": "🧩 Codec:",
+            "value": "H.264"
+          }
+        },
+        "spec_Bgy7xg": {
+          "type": "spec",
+          "settings": {
+            "label": "📁 Formato vídeo:",
+            "value": "AVI / TS"
+          }
+        },
+        "spec_Cb4WVa": {
+          "type": "spec",
+          "settings": {
+            "label": "📸 Sensor:",
+            "value": "1/3\" Sony CCD"
+          }
+        },
+        "spec_E4PDCw": {
+          "type": "spec",
+          "settings": {
+            "label": "📡 Visión nocturna:",
+            "value": "Sí"
+          }
+        },
+        "spec_fpEKtm": {
+          "type": "spec",
+          "settings": {
+            "label": "🖥️ Pantalla:",
+            "value": "IPS táctil integrada"
+          }
+        },
+        "spec_PrLVLg": {
+          "type": "spec",
+          "settings": {
+            "label": "📐 Relación pantalla:",
+            "value": "16:9"
+          }
+        }
+      },
+      "block_order": [
+        "spec_jqUrpb",
+        "spec_Gi47M6",
+        "spec_NcL3Ww",
+        "spec_AhDH3g",
+        "spec_6Uan7F",
+        "spec_Bgy7xg",
+        "spec_Cb4WVa",
+        "spec_E4PDCw",
+        "spec_fpEKtm",
+        "spec_PrLVLg"
+      ],
+      "name": "Especificaciones",
+      "settings": {
+        "badge": "📌 Especificaciones",
+        "heading": "Características de DriveGuard X"
+      }
+    },
+    "floating_cta_FxWLcH": {
+      "type": "floating-cta",
+      "name": "CTA flotante",
+      "settings": {
+        "text": "¿Listo para conducir con total tranquilidad?",
+        "cta": "Comprar Ahora",
+        "link": "shopify://products/10-11-26-4k-adas-dvr-wireless-carplay-android-auto-dash-cam-bluetooth-audio-gps-navigation-dashboard-dual-lens-video-recorder"
+      }
+    }
+  },
+  "order": [
+    "features_grid_fk7Dk4",
+    "main",
+    "image_gallery_WH94aT",
+    "specs_table_KDttpm",
+    "floating_cta_FxWLcH"
+  ]
+}

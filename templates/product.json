@@ -1,0 +1,238 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "highlight_zgQXLY": {
+          "type": "highlight",
+          "settings": {
+            "title": "Protección automática",
+            "text": "Detecta impactos y guarda el clip clave."
+          }
+        },
+        "highlight_aqERCq": {
+          "type": "highlight",
+          "settings": {
+            "title": "Control desde el móvil",
+            "text": "Alertas al instante y acceso rápido a grabaciones."
+          }
+        }
+      },
+      "block_order": [
+        "highlight_zgQXLY",
+        "highlight_aqERCq"
+      ],
+      "settings": {
+        "badge": "Nuevo lanzamiento",
+        "eyebrow": "Seguridad Inteligente Avanzada",
+        "subheading": "Monitoriza tu vehículo con IA avanzada, detección de impactos y alertas instantáneas desde la app móvil.",
+        "primary_cta": "Comprar ahora",
+        "shipping_text": "Envío gratis en 7–14 días con tracking completo.",
+        "guarantee_text": "Atención prioritaria 24/7 y soporte técnico especializado.",
+        "benefits_heading": "Accesorios",
+        "benefits_list": "<ul><li><strong>Soporte largo</strong> — Montaje estable y seguro</li><li><strong>Cámara trasera 1080P</strong> — Grabación trasera nítida</li><li><strong>Power Box (FM/AUX)</strong> — Audio y energía integrados</li><li><strong>Módulo GPS</strong> — Velocidad y coordenadas</li></ul>"
+      }
+    },
+    "shipping_info_HjWDwj": {
+      "type": "shipping-info",
+      "blocks": {
+        "item_qyBVMJ": {
+          "type": "item",
+          "settings": {
+            "title": "5–10 Días Con Tracking Completo.",
+            "text": "Stock limitado: asegúralo hoy y recíbelo mientras que sigues tu pedido en tiempo real."
+          }
+        }
+      },
+      "block_order": [
+        "item_qyBVMJ"
+      ],
+      "name": "Envíos",
+      "settings": {
+        "badge": "Envíos:",
+        "heading": ""
+      }
+    },
+    "trust_badges_WrX6t8": {
+      "type": "trust-badges",
+      "blocks": {
+        "badge_rRXJHx": {
+          "type": "badge",
+          "settings": {
+            "title": "Pago seguro",
+            "text": "Transacciones protegidas y cifradas."
+          }
+        },
+        "badge_nzkxrJ": {
+          "type": "badge",
+          "settings": {
+            "title": "Envío con seguimiento",
+            "text": "Tracking disponible desde la salida hasta la entrega."
+          }
+        },
+        "badge_GfQxWy": {
+          "type": "badge",
+          "settings": {
+            "title": "Devolución sencilla",
+            "text": "Proceso rápido y sin complicaciones."
+          }
+        }
+      },
+      "block_order": [
+        "badge_rRXJHx",
+        "badge_nzkxrJ",
+        "badge_GfQxWy"
+      ],
+      "name": "Sellos de confianza",
+      "settings": {
+        "badge": "Tu compra, bien cuidada.",
+        "heading": ""
+      }
+    },
+    "testimonials_mwy4HD": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_fgtHHe": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_47gCL8": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_XBQrNH": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_rqUFpd": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_CmT9cF": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_XTDwhW": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_rzBi4B": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_VW8QfB": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_Tr4dnM": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_rp9aFg": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_rJEW8w": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_qaJ8UJ": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_fgtHHe",
+        "testimonial_47gCL8",
+        "testimonial_XBQrNH",
+        "testimonial_rqUFpd",
+        "testimonial_CmT9cF",
+        "testimonial_XTDwhW",
+        "testimonial_rzBi4B",
+        "testimonial_VW8QfB",
+        "testimonial_Tr4dnM",
+        "testimonial_rp9aFg",
+        "testimonial_rJEW8w",
+        "testimonial_qaJ8UJ"
+      ],
+      "name": "Testimonios",
+      "settings": {
+        "badge": "Reseñas",
+        "heading": ""
+      }
+    },
+    "timeline_9HdJHm": {
+      "type": "timeline",
+      "disabled": true,
+      "name": "Timeline",
+      "settings": {
+        "badge": "Proceso",
+        "heading": "Timeline de protección"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "shipping_info_HjWDwj",
+    "trust_badges_WrX6t8",
+    "testimonials_mwy4HD",
+    "timeline_9HdJHm"
+  ]
+}
