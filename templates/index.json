@@ -61,32 +61,32 @@
         "button_label": "Suscribirme"
       }
     },
-    "accessories_Jprwcj": {
-      "type": "accessories",
+    "stats_B8E6K7": {
+      "type": "stats",
       "blocks": {
-        "item_8gpHVx": {
-          "type": "item",
+        "stat_WCQqhm": {
+          "type": "stat",
           "settings": {
-            "title": "Kit de instalación",
-            "text": "Complemento ideal para una instalación rápida."
+            "value": "99.8%",
+            "label": "Precisión"
           }
         },
-        "item_MXAX3j": {
-          "type": "item",
+        "stat_cUaL38": {
+          "type": "stat",
           "settings": {
-            "title": "Kit de instalación",
-            "text": "Complemento ideal para una instalación rápida."
+            "value": "99.8%",
+            "label": "Precisión"
           }
         }
       },
       "block_order": [
-        "item_8gpHVx",
-        "item_MXAX3j"
+        "stat_WCQqhm",
+        "stat_cUaL38"
       ],
-      "name": "Accesorios",
+      "name": "Estadísticas",
       "settings": {
-        "badge": "Accesorios",
-        "heading": "Complementos recomendados"
+        "badge": "Resultados",
+        "heading": "Datos en los que confiar"
       }
     }
   },
@@ -96,6 +96,6 @@
     "featured",
     "story",
     "newsletter",
-    "accessories_Jprwcj"
+    "stats_B8E6K7"
   ]
 }
