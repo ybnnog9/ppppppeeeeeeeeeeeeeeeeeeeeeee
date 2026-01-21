@@ -17,6 +17,13 @@
     "image_gallery_WH94aT": {
       "type": "image-gallery",
       "blocks": {
+        "image_FrtDmB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_21_ene_2026_02_51_18.png",
+            "alt": "Imagen del producto"
+          }
+        },
         "image_DgahMX": {
           "type": "image",
           "settings": {
@@ -27,11 +34,13 @@
         "image_CFy6fD": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_21_ene_2026_02_48_37.png",
             "alt": "Imagen del producto"
           }
         }
       },
       "block_order": [
+        "image_FrtDmB",
         "image_DgahMX",
         "image_CFy6fD"
       ],
@@ -41,31 +50,10 @@
         "heading": "Detalles en alta definición",
         "subheading": "Añade tus imágenes del producto para mostrar cada ángulo y característica clave."
       }
-    },
-    "specs_table_ePr6LL": {
-      "type": "specs-table",
-      "blocks": {
-        "spec_NVXtbJ": {
-          "type": "spec",
-          "settings": {
-            "label": "Resolución",
-            "value": "4K Ultra HD"
-          }
-        }
-      },
-      "block_order": [
-        "spec_NVXtbJ"
-      ],
-      "name": "Especificaciones",
-      "settings": {
-        "badge": "Specs",
-        "heading": "Especificaciones técnicas"
-      }
     }
   },
   "order": [
     "main",
-    "image_gallery_WH94aT",
-    "specs_table_ePr6LL"
+    "image_gallery_WH94aT"
   ]
 }
