@@ -156,8 +156,8 @@
         "spec_PrLVLg": {
           "type": "spec",
           "settings": {
-            "label": "Resolución",
-            "value": "4K Ultra HD"
+            "label": "📐 Relación pantalla:",
+            "value": "16:9"
           }
         }
       },
