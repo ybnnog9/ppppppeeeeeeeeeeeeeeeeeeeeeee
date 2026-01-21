@@ -61,40 +61,40 @@
         "button_label": "Suscribirme"
       }
     },
-    "timeline_wPdtbT": {
-      "type": "timeline",
+    "trust_badges_AJtVNJ": {
+      "type": "trust-badges",
       "blocks": {
-        "item_8LXRm4": {
-          "type": "item",
+        "badge_q84EwY": {
+          "type": "badge",
           "settings": {
-            "title": "Activación",
-            "text": "Configura la app en minutos."
+            "title": "Pago seguro",
+            "text": "Transacciones protegidas y cifradas."
           }
         },
-        "item_LBqCFV": {
-          "type": "item",
+        "badge_c7RbwE": {
+          "type": "badge",
           "settings": {
-            "title": "Activación",
-            "text": "Configura la app en minutos."
+            "title": "Pago seguro",
+            "text": "Transacciones protegidas y cifradas."
           }
         },
-        "item_TWKB4g": {
-          "type": "item",
+        "badge_EHMwtK": {
+          "type": "badge",
           "settings": {
-            "title": "Activación",
-            "text": "Configura la app en minutos."
+            "title": "Pago seguro",
+            "text": "Transacciones protegidas y cifradas."
           }
         }
       },
       "block_order": [
-        "item_8LXRm4",
-        "item_LBqCFV",
-        "item_TWKB4g"
+        "badge_q84EwY",
+        "badge_c7RbwE",
+        "badge_EHMwtK"
       ],
-      "name": "Timeline",
+      "name": "Sellos de confianza",
       "settings": {
-        "badge": "Proceso",
-        "heading": "Timeline de protección"
+        "badge": "Confianza",
+        "heading": "Compra con tranquilidad"
       }
     }
   },
@@ -104,6 +104,6 @@
     "featured",
     "story",
     "newsletter",
-    "timeline_wPdtbT"
+    "trust_badges_AJtVNJ"
   ]
 }
