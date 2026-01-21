@@ -61,40 +61,15 @@
         "button_label": "Suscribirme"
       }
     },
-    "trust_badges_AJtVNJ": {
-      "type": "trust-badges",
-      "blocks": {
-        "badge_q84EwY": {
-          "type": "badge",
-          "settings": {
-            "title": "Pago seguro",
-            "text": "Transacciones protegidas y cifradas."
-          }
-        },
-        "badge_c7RbwE": {
-          "type": "badge",
-          "settings": {
-            "title": "Pago seguro",
-            "text": "Transacciones protegidas y cifradas."
-          }
-        },
-        "badge_EHMwtK": {
-          "type": "badge",
-          "settings": {
-            "title": "Pago seguro",
-            "text": "Transacciones protegidas y cifradas."
-          }
-        }
-      },
-      "block_order": [
-        "badge_q84EwY",
-        "badge_c7RbwE",
-        "badge_EHMwtK"
-      ],
-      "name": "Sellos de confianza",
+    "callout_banner_iFGtqC": {
+      "type": "callout-banner",
+      "name": "Banner",
       "settings": {
-        "badge": "Confianza",
-        "heading": "Compra con tranquilidad"
+        "badge": "Oferta",
+        "heading": "Oferta limitada",
+        "text": "Consigue tu DriveGuard con descuento hoy.",
+        "cta": "Comprar ahora",
+        "link": ""
       }
     }
   },
@@ -104,6 +79,6 @@
     "featured",
     "story",
     "newsletter",
-    "trust_badges_AJtVNJ"
+    "callout_banner_iFGtqC"
   ]
 }
