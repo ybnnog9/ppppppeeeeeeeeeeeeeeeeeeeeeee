@@ -69,14 +69,6 @@
             "text": "Algoritmos que aprenden tu conducción para anticipar riesgos."
           }
         },
-        "feature_NEAzf9": {
-          "type": "feature",
-          "settings": {
-            "icon": "🔒",
-            "title": "Seguridad total",
-            "text": "Protección en tiempo real contra robos, accidentes y eventos críticos."
-          }
-        },
         "feature_DgkyKi": {
           "type": "feature",
           "settings": {
@@ -100,23 +92,13 @@
             "title": "Cobertura global",
             "text": "Funciona en más de 150 países con soporte multilingüe."
           }
-        },
-        "feature_cFRHWi": {
-          "type": "feature",
-          "settings": {
-            "icon": "💬",
-            "title": "Soporte 24/7",
-            "text": "Equipo especializado disponible en cualquier momento."
-          }
         }
       },
       "block_order": [
         "feature_qXnG7Y",
-        "feature_NEAzf9",
         "feature_DgkyKi",
         "feature_ypPBrX",
-        "feature_n9jWj4",
-        "feature_cFRHWi"
+        "feature_n9jWj4"
       ],
       "name": "Características",
       "settings": {
