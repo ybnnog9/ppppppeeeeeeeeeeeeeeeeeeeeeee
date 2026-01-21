@@ -48,8 +48,8 @@
         "item_qyBVMJ": {
           "type": "item",
           "settings": {
-            "title": "24-72h",
-            "text": "Entrega express con tracking en tiempo real."
+            "title": "7–14 Días Con Tracking Completo.",
+            "text": "Stock limitado: asegúralo hoy y recíbelo mientras que sigues tu pedido en tiempo real."
           }
         }
       },
@@ -59,7 +59,7 @@
       "name": "Envíos",
       "settings": {
         "badge": "ENVIOS:",
-        "heading": "7–14 Días Con Tracking Completo."
+        "heading": ""
       }
     },
     "testimonials_mwy4HD": {
