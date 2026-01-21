@@ -104,6 +104,13 @@
     "specs_table_KDttpm": {
       "type": "specs-table",
       "blocks": {
+        "spec_jqUrpb": {
+          "type": "spec",
+          "settings": {
+            "label": "🚗 Funciones:",
+            "value": "ADAS, cámara trasera, grabación en bucle, G-Sensor, movimiento, parking monitor, control por voz, WDR"
+          }
+        },
         "spec_Gi47M6": {
           "type": "spec",
           "settings": {
@@ -169,6 +176,7 @@
         }
       },
       "block_order": [
+        "spec_jqUrpb",
         "spec_Gi47M6",
         "spec_NcL3Ww",
         "spec_AhDH3g",
