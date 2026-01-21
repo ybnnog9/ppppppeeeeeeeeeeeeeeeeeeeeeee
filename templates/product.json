@@ -182,24 +182,49 @@
         "heading": ""
       }
     },
-    "icon_list_aVFbJU": {
-      "type": "icon-list",
+    "trust_badges_WrX6t8": {
+      "type": "trust-badges",
       "blocks": {
-        "item_f8n4XY": {
-          "type": "item",
+        "badge_rRXJHx": {
+          "type": "badge",
           "settings": {
-            "title": "Protección total",
-            "text": "Cobertura en tiempo real."
+            "title": "Pago seguro",
+            "text": "Transacciones protegidas y cifradas."
+          }
+        },
+        "badge_nzkxrJ": {
+          "type": "badge",
+          "settings": {
+            "title": "Pago seguro",
+            "text": "Transacciones protegidas y cifradas."
+          }
+        },
+        "badge_GfQxWy": {
+          "type": "badge",
+          "settings": {
+            "title": "Pago seguro",
+            "text": "Transacciones protegidas y cifradas."
           }
         }
       },
       "block_order": [
-        "item_f8n4XY"
+        "badge_rRXJHx",
+        "badge_nzkxrJ",
+        "badge_GfQxWy"
       ],
-      "name": "Lista de iconos",
+      "name": "Sellos de confianza",
       "settings": {
-        "badge": "Beneficios",
-        "heading": "Ventajas clave"
+        "badge": "Confianza",
+        "heading": "Compra con tranquilidad"
+      }
+    },
+    "timeline_9HdJHm": {
+      "type": "timeline",
+      "disabled": true,
+      "name": "Timeline",
+      "settings": {
+        "badge": "Proceso",
+        "heading": "Timeline de protección"
       }
     }
   },
@@ -207,6 +232,7 @@
     "main",
     "shipping_info_HjWDwj",
     "testimonials_mwy4HD",
-    "icon_list_aVFbJU"
+    "trust_badges_WrX6t8",
+    "timeline_9HdJHm"
   ]
 }
