@@ -46,8 +46,8 @@
       "type": "shipping-info",
       "name": "Envíos",
       "settings": {
-        "badge": "Envío gratis en 7–14 días con número de seguimiento.",
-        "heading": "Stock limitado y reposiciones rápidas."
+        "badge": "Metodo de envio",
+        "heading": "Envío gratis en 7–14 días con tracking completo."
       }
     },
     "testimonials_mwy4HD": {
