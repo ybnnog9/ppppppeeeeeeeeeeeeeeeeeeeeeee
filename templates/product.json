@@ -42,6 +42,26 @@
         "benefits_list": "<ul><li><strong>Soporte largo</strong> — Montaje estable y seguro</li><li><strong>Cámara trasera 1080P</strong> — Grabación trasera nítida</li><li><strong>Power Box (FM/AUX)</strong> — Audio y energía integrados</li><li><strong>Módulo GPS</strong> — Velocidad y coordenadas</li></ul>"
       }
     },
+    "shipping_info_HjWDwj": {
+      "type": "shipping-info",
+      "blocks": {
+        "item_d4XLL6": {
+          "type": "item",
+          "settings": {
+            "title": "7–14 días",
+            "text": "Envío con tracking completo."
+          }
+        }
+      },
+      "block_order": [
+        "item_d4XLL6"
+      ],
+      "name": "Envíos",
+      "settings": {
+        "badge": "Envío",
+        "heading": "Entrega rápida y segura"
+      }
+    },
     "testimonials_mwy4HD": {
       "type": "testimonials",
       "blocks": {
@@ -161,22 +181,11 @@
         "badge": "Reseñas",
         "heading": ""
       }
-    },
-    "guarantee_7q8yeY": {
-      "type": "guarantee",
-      "name": "Garantía",
-      "settings": {
-        "badge": "Garantía",
-        "heading": "Garantía premium de 24 meses",
-        "text": "Si no estás satisfecho, te devolvemos el dinero en 30 días.",
-        "cta": "Conocer más",
-        "link": ""
-      }
     }
   },
   "order": [
     "main",
-    "testimonials_mwy4HD",
-    "guarantee_7q8yeY"
+    "shipping_info_HjWDwj",
+    "testimonials_mwy4HD"
   ]
 }
