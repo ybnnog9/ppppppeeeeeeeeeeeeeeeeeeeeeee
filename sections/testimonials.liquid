@@ -1,0 +1,41 @@
+<section class="section" data-animate>
+  <div class="container">
+    <div class="section-title">
+      <div>
+        <span class="badge">{{ section.settings.badge }}</span>
+        <h2>{{ section.settings.heading }}</h2>
+      </div>
+    </div>
+    <div class="testimonial-grid">
+      {% for block in section.blocks %}
+        <article class="testimonial-card" {{ block.shopify_attributes }}>
+          <p>“{{ block.settings.quote }}”</p>
+          <p><strong>{{ block.settings.name }}</strong></p>
+          <p class="u-muted">{{ block.settings.role }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Testimonios",
+  "settings": [
+    {"type": "text", "id": "badge", "label": "Etiqueta", "default": "Reseñas"},
+    {"type": "text", "id": "heading", "label": "Título", "default": "Clientes que confían"}
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonio",
+      "settings": [
+        {"type": "textarea", "id": "quote", "label": "Cita", "default": "La instalación fue rápida y la app es increíble."},
+        {"type": "text", "id": "name", "label": "Nombre", "default": "María L."},
+        {"type": "text", "id": "role", "label": "Rol", "default": "Conductora"}
+      ]
+    }
+  ],
+  "presets": [{"name": "Testimonios"}]
+}
+{% endschema %}

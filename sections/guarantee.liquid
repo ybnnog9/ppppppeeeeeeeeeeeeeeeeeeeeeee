@@ -1,0 +1,22 @@
+<section class="section" data-animate>
+  <div class="container callout-banner">
+    <span class="badge">{{ section.settings.badge }}</span>
+    <h2>{{ section.settings.heading }}</h2>
+    <p>{{ section.settings.text }}</p>
+    <a class="button" href="{{ section.settings.link }}">{{ section.settings.cta }}</a>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Garantía",
+  "settings": [
+    {"type": "text", "id": "badge", "label": "Etiqueta", "default": "Garantía"},
+    {"type": "text", "id": "heading", "label": "Título", "default": "Garantía premium de 24 meses"},
+    {"type": "textarea", "id": "text", "label": "Texto", "default": "Si no estás satisfecho, te devolvemos el dinero en 30 días."},
+    {"type": "text", "id": "cta", "label": "CTA", "default": "Conocer más"},
+    {"type": "url", "id": "link", "label": "Enlace"}
+  ],
+  "presets": [{"name": "Garantía"}]
+}
+{% endschema %}
