@@ -56,6 +56,94 @@
     "testimonials_4mNBUc": {
       "type": "testimonials",
       "blocks": {
+        "testimonial_8Fw9fi": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_WCwJMz": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_rRGMJn": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_gTerGR": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_8pRwd9": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_4wdQyb": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_ccP8m8": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_KjDAJM": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_3cnTVL": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_BKdPM4": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
+        "testimonial_MDiX7m": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "La instalación fue rápida y la app es increíble.",
+            "name": "María L.",
+            "role": "Conductora"
+          }
+        },
         "testimonial_K8GMqD": {
           "type": "testimonial",
           "settings": {
@@ -66,6 +154,17 @@
         }
       },
       "block_order": [
+        "testimonial_8Fw9fi",
+        "testimonial_WCwJMz",
+        "testimonial_rRGMJn",
+        "testimonial_gTerGR",
+        "testimonial_8pRwd9",
+        "testimonial_4wdQyb",
+        "testimonial_ccP8m8",
+        "testimonial_KjDAJM",
+        "testimonial_3cnTVL",
+        "testimonial_BKdPM4",
+        "testimonial_MDiX7m",
         "testimonial_K8GMqD"
       ],
       "name": "Testimonios",
