@@ -44,22 +44,10 @@
     },
     "shipping_info_HjWDwj": {
       "type": "shipping-info",
-      "blocks": {
-        "item_d4XLL6": {
-          "type": "item",
-          "settings": {
-            "title": "7–14 días",
-            "text": "Envío con tracking completo."
-          }
-        }
-      },
-      "block_order": [
-        "item_d4XLL6"
-      ],
       "name": "Envíos",
       "settings": {
-        "badge": "Envío",
-        "heading": "Entrega rápida y segura"
+        "badge": "Envío gratis en 7–14 días.",
+        "heading": "Con número de seguimiento.Stock limitado y reposiciones rápidas."
       }
     },
     "testimonials_mwy4HD": {
