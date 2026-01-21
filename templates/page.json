@@ -24,13 +24,6 @@
             "alt": "Imagen del producto"
           }
         },
-        "image_xgxCVR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_21_ene_2026_02_48_37.png",
-            "alt": "Imagen del producto"
-          }
-        },
         "image_xHjwCA": {
           "type": "image",
           "settings": {
@@ -48,7 +41,6 @@
       },
       "block_order": [
         "image_N4CWxT",
-        "image_xgxCVR",
         "image_xHjwCA",
         "image_FrtDmB"
       ],
