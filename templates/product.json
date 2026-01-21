@@ -46,7 +46,7 @@
       "type": "shipping-info",
       "name": "Envíos",
       "settings": {
-        "badge": "Metodo de envio",
+        "badge": "Método de envío:",
         "heading": "Envío gratis en 7–14 días con tracking completo."
       }
     },
