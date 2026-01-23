@@ -1,0 +1,20 @@
+<section class="section" data-animate>
+  <div class="floating-cta">
+    <div class="floating-cta__inner">
+      <span>{{ section.settings.text }}</span>
+      <a class="button" href="{{ section.settings.link }}">{{ section.settings.cta }}</a>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "CTA flotante",
+  "settings": [
+    {"type": "text", "id": "text", "label": "Texto", "default": "¿Listo para proteger tu vehículo?"},
+    {"type": "text", "id": "cta", "label": "CTA", "default": "Comprar"},
+    {"type": "url", "id": "link", "label": "Enlace"}
+  ],
+  "presets": [{"name": "CTA flotante"}]
+}
+{% endschema %}
