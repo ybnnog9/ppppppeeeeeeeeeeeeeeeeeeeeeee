@@ -1,0 +1,30 @@
+<section class="section">
+  <div class="container">
+    <h1>Carrito</h1>
+    {% if cart.item_count > 0 %}
+      <div class="card-grid">
+        {% for item in cart.items %}
+          <article class="product-card">
+            <h3 class="product-card__title">{{ item.product.title }}</h3>
+            <p>Cantidad: {{ item.quantity }}</p>
+            <p class="product-card__price">{{ item.final_line_price | money }}</p>
+          </article>
+        {% endfor %}
+      </div>
+      <p><strong>Total:</strong> {{ cart.total_price | money }}</p>
+      <form method="post" action="/checkout">
+        <button class="button" type="submit">Finalizar compra</button>
+      </form>
+    {% else %}
+      <p>Tu carrito está vacío.</p>
+      <a class="button button--ghost" href="{{ routes.all_products_collection_url }}">Seguir comprando</a>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Carrito principal",
+  "settings": []
+}
+{% endschema %}

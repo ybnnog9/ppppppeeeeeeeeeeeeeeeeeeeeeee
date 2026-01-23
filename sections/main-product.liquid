@@ -1,0 +1,249 @@
+<section class="section section--product" data-animate>
+  <div class="container lux-product">
+    <div class="lux-product__media">
+      <div class="lux-product__hero">
+        {% if product.featured_image %}
+          <img src="{{ product.featured_image | image_url: width: 1400 }}" alt="{{ product.title }}">
+        {% endif %}
+        <div class="lux-product__badge">{{ section.settings.badge }}</div>
+      </div>
+      {% if product.images.size > 1 %}
+        <div class="lux-product__thumbs">
+          {% for image in product.images %}
+            <button class="lux-product__thumb" type="button">
+              <img src="{{ image | image_url: width: 320 }}" alt="{{ product.title }}">
+            </button>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+    <div class="lux-product__content">
+      <div class="lux-product__eyebrow">{{ section.settings.eyebrow }}</div>
+      <h1 class="lux-product__title">{{ product.title }}</h1>
+      <p class="lux-product__subtitle">{{ section.settings.subheading }}</p>
+      {% render 'price', product: product %}
+
+      <div class="lux-product__rating">
+        <span>{{ section.settings.rating_text }}</span>
+        <span class="lux-product__rating-stars">★★★★★</span>
+      </div>
+
+      <div class="lux-product__stats">
+        <div>
+          <p class="lux-product__stat-value">{{ section.settings.stat_one_value }}</p>
+          <p class="lux-product__stat-label">{{ section.settings.stat_one_label }}</p>
+        </div>
+        <div>
+          <p class="lux-product__stat-value">{{ section.settings.stat_two_value }}</p>
+          <p class="lux-product__stat-label">{{ section.settings.stat_two_label }}</p>
+        </div>
+        <div>
+          <p class="lux-product__stat-value">{{ section.settings.stat_three_value }}</p>
+          <p class="lux-product__stat-label">{{ section.settings.stat_three_label }}</p>
+        </div>
+      </div>
+
+      <div class="lux-product__actions">
+        <form method="post" action="/cart/add">
+          <div class="lux-product__variants">
+            {% for option in product.options_with_values %}
+              <label class="lux-product__option">
+                <span>{{ option.name }}</span>
+                <select class="form-input" name="options[{{ option.name }}]">
+                  {% for value in option.values %}
+                    <option value="{{ value }}" {% if option.selected_value == value %}selected{% endif %}>{{ value }}</option>
+                  {% endfor %}
+                </select>
+              </label>
+            {% endfor %}
+          </div>
+          <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+          <button class="button" type="submit">{{ section.settings.primary_cta }}</button>
+        </form>
+      </div>
+
+      <div class="lux-product__trust">
+        <div>{{ section.settings.trust_text }}</div>
+      </div>
+
+      <div class="lux-product__meta">
+        <p>{{ section.settings.shipping_text }}</p>
+        <p>{{ section.settings.guarantee_text }}</p>
+      </div>
+
+      <div class="lux-product__benefits">
+        <h2>{{ section.settings.benefits_heading }}</h2>
+        <div>{{ section.settings.benefits_list }}</div>
+      </div>
+
+      <div class="lux-product__highlights">
+        {% for block in section.blocks %}
+          <div class="lux-product__highlight" {{ block.shopify_attributes }}>
+            <h3>{{ block.settings.title }}</h3>
+            <p>{{ block.settings.text }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Producto principal",
+  "settings": [
+    {
+      "type": "text",
+      "id": "badge",
+      "label": "Etiqueta en imagen",
+      "default": "Nuevo lanzamiento"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Etiqueta superior",
+      "default": "Seguridad inteligente"
+    },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Subtítulo",
+      "default": "Monitoriza tu vehículo con IA avanzada, detección de impactos y alertas instantáneas desde la app móvil."
+    },
+    {
+      "type": "text",
+      "id": "rating_text",
+      "label": "Texto valoración",
+      "default": "4.9 (2.1k reviews)"
+    },
+    {
+      "type": "text",
+      "id": "primary_cta",
+      "label": "CTA principal",
+      "default": "Comprar ahora"
+    },
+    {
+      "type": "text",
+      "id": "stat_one_value",
+      "label": "Valor estadística 1",
+      "default": "99.9%"
+    },
+    {
+      "type": "text",
+      "id": "stat_one_label",
+      "label": "Etiqueta estadística 1",
+      "default": "Precisión"
+    },
+    {
+      "type": "text",
+      "id": "stat_two_value",
+      "label": "Valor estadística 2",
+      "default": "24/7"
+    },
+    {
+      "type": "text",
+      "id": "stat_two_label",
+      "label": "Etiqueta estadística 2",
+      "default": "Protección"
+    },
+    {
+      "type": "text",
+      "id": "stat_three_value",
+      "label": "Valor estadística 3",
+      "default": "+50K"
+    },
+    {
+      "type": "text",
+      "id": "stat_three_label",
+      "label": "Etiqueta estadística 3",
+      "default": "Conductores"
+    },
+    {
+      "type": "richtext",
+      "id": "trust_text",
+      "label": "Texto de confianza",
+      "default": "<ul><li>Pago seguro</li><li>Entrega premium</li><li>Soporte 24/7</li></ul>"
+    },
+    {
+      "type": "text",
+      "id": "shipping_text",
+      "label": "Texto envío",
+      "default": "Envío gratis en 24-72h + tracking en tiempo real."
+    },
+    {
+      "type": "text",
+      "id": "guarantee_text",
+      "label": "Texto garantía",
+      "default": "Garantía premium de 24 meses y soporte 24/7."
+    },
+    {
+      "type": "text",
+      "id": "benefits_heading",
+      "label": "Título de beneficios",
+      "default": "Lo que incluye"
+    },
+    {
+      "type": "richtext",
+      "id": "benefits_list",
+      "label": "Lista de beneficios",
+      "default": "<ul><li>Detección de impacto inteligente</li><li>App móvil con alertas instantáneas</li><li>Instalación rápida y soporte continuo</li></ul>"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "highlight",
+      "name": "Highlight",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Título",
+          "default": "IA predictiva"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Descripción",
+          "default": "Analiza patrones de conducción para anticipar riesgos y enviar alertas preventivas."
+        }
+      ]
+    }
+  ],
+  "max_blocks": 4,
+  "presets": [
+    {
+      "name": "Producto principal",
+      "blocks": [
+        {
+          "type": "highlight",
+          "settings": {
+            "title": "Detección 24/7",
+            "text": "Sensores inteligentes y notificaciones inmediatas ante impactos o movimientos sospechosos."
+          }
+        },
+        {
+          "type": "highlight",
+          "settings": {
+            "title": "Control desde el móvil",
+            "text": "Gestiona alertas, ubicación y reportes desde iOS o Android en segundos."
+          }
+        },
+        {
+          "type": "highlight",
+          "settings": {
+            "title": "Instalación express",
+            "text": "Sistema plug & play sin modificaciones complicadas ni talleres externos."
+          }
+        },
+        {
+          "type": "highlight",
+          "settings": {
+            "title": "Protección premium",
+            "text": "Tecnología de seguridad vehicular avanzada con actualizaciones constantes."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
