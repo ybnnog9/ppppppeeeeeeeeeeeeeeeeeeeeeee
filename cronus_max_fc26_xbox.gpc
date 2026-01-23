@@ -1,0 +1,58 @@
+// Cronus Max GPC - FC/FIFA Timed Finish Helper (Xbox)
+// Objetivo: ayudar al timed finishing sin interferir en defensa.
+// Toggle: VIEW + LS (para activar/desactivar)
+// Solo actúa cuando estás en ataque (disparo o pase), nunca en defensa.
+// Ajusta SHOT_DELAY_MS según tu timing (320-520 ms típicamente).
+
+// ====== MAPEO XBOX ======
+// XB1_A = A, XB1_B = B, XB1_X = X, XB1_Y = Y
+// XB1_LS = clic stick izquierdo, XB1_VIEW = botón View
+// XB1_RT = gatillo derecho (sprint), XB1_LT = gatillo izquierdo
+
+// ====== CONFIG ======
+int mod_on = TRUE;
+int shot_delay_ms = 420; // Ajusta según tu ritmo
+
+// ====== BOTONES ======
+#define SHOT_BTN   XB1_B
+#define PASS_BTN   XB1_A
+#define VIEW_BTN   XB1_VIEW
+#define LS_BTN     XB1_LS
+#define LT_BTN     XB1_LT
+#define RT_BTN     XB1_RT
+
+// ====== LOGICA ======
+// - Solo aplica timed finishing cuando:
+//   1) Mod activo
+//   2) Se pulsa disparo (B)
+//   3) NO estás defendiendo (LT presionado suele ser jockey/defensa)
+//   4) NO estás en sprint defensivo (RT+LT juntos típicamente defensa)
+
+main {
+    // Toggle del mod
+    if (event_press(VIEW_BTN) && get_val(LS_BTN)) {
+        mod_on = !mod_on;
+    }
+
+    // Timed finishing: doble toque controlado en disparo
+    if (mod_on
+        && event_press(SHOT_BTN)
+        && get_val(LT_BTN) == 0) {
+        combo_run(timed_shot);
+    }
+}
+
+combo timed_shot {
+    // Primer toque (disparo)
+    set_val(SHOT_BTN, 100);
+    wait(40);
+    set_val(SHOT_BTN, 0);
+
+    // Ventana del timed finish
+    wait(shot_delay_ms);
+
+    // Segundo toque
+    set_val(SHOT_BTN, 100);
+    wait(40);
+    set_val(SHOT_BTN, 0);
+}
