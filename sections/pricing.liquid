@@ -1,0 +1,42 @@
+<section class="section" data-animate>
+  <div class="container">
+    <div class="section-title section-title--center">
+      <div>
+        <span class="badge">{{ section.settings.badge }}</span>
+        <h2>{{ section.settings.heading }}</h2>
+      </div>
+    </div>
+    <div class="pricing-grid">
+      {% for block in section.blocks %}
+        <div class="pricing-card {% if block.settings.featured %}pricing-card--featured{% endif %}" {{ block.shopify_attributes }}>
+          <h3>{{ block.settings.title }}</h3>
+          <p class="u-bold">{{ block.settings.price }}</p>
+          <div>{{ block.settings.features }}</div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Planes",
+  "settings": [
+    {"type": "text", "id": "badge", "label": "Etiqueta", "default": "Planes"},
+    {"type": "text", "id": "heading", "label": "Título", "default": "Elige tu plan"}
+  ],
+  "blocks": [
+    {
+      "type": "plan",
+      "name": "Plan",
+      "settings": [
+        {"type": "text", "id": "title", "label": "Título", "default": "Pro"},
+        {"type": "text", "id": "price", "label": "Precio", "default": "€49/mes"},
+        {"type": "richtext", "id": "features", "label": "Características", "default": "<ul><li>Alertas en tiempo real</li><li>Historial completo</li></ul>"},
+        {"type": "checkbox", "id": "featured", "label": "Destacado", "default": false}
+      ]
+    }
+  ],
+  "presets": [{"name": "Planes"}]
+}
+{% endschema %}
