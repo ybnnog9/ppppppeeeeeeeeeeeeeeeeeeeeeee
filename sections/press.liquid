@@ -1,0 +1,39 @@
+<section class="section" data-animate>
+  <div class="container">
+    <div class="section-title">
+      <div>
+        <span class="badge">{{ section.settings.badge }}</span>
+        <h2>{{ section.settings.heading }}</h2>
+      </div>
+    </div>
+    <div class="press-grid">
+      {% for block in section.blocks %}
+        <div class="press-card" {{ block.shopify_attributes }}>
+          <p>“{{ block.settings.quote }}”</p>
+          <p class="u-bold">{{ block.settings.source }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Prensa",
+  "settings": [
+    {"type": "text", "id": "badge", "label": "Etiqueta", "default": "Prensa"},
+    {"type": "text", "id": "heading", "label": "Título", "default": "Nos recomiendan"}
+  ],
+  "blocks": [
+    {
+      "type": "mention",
+      "name": "Mención",
+      "settings": [
+        {"type": "textarea", "id": "quote", "label": "Cita", "default": "Una innovación imprescindible en seguridad vehicular."},
+        {"type": "text", "id": "source", "label": "Fuente", "default": "AutoTech"}
+      ]
+    }
+  ],
+  "presets": [{"name": "Prensa"}]
+}
+{% endschema %}

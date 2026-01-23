@@ -1,0 +1,26 @@
+<section class="section">
+  <div class="container">
+    <h1>Buscar</h1>
+    <form action="{{ routes.search_url }}" method="get">
+      <input class="form-input" type="search" name="q" value="{{ search.terms }}" placeholder="Buscar productos">
+      <button class="button" type="submit">Buscar</button>
+    </form>
+    {% if search.performed %}
+      <p>{{ search.results_count }} resultados</p>
+      <div class="card-grid">
+        {% for item in search.results %}
+          {% if item.object_type == 'product' %}
+            {% render 'product-card', product: item %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Buscador principal",
+  "settings": []
+}
+{% endschema %}

@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product"
+    },
+    "gallery": {
+      "type": "image-gallery"
+    }
+  },
+  "order": ["main", "gallery"]
+}

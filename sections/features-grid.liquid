@@ -1,0 +1,128 @@
+<section class="section section--features" data-animate>
+  <div class="container">
+    <div class="section-title section-title--center">
+      <div>
+        <span class="badge">{{ section.settings.badge }}</span>
+        <h2>{{ section.settings.heading }}</h2>
+        <p class="section-subtitle">{{ section.settings.subheading }}</p>
+      </div>
+    </div>
+    <div class="feature-grid">
+      {% for block in section.blocks %}
+        <article class="feature-card" {{ block.shopify_attributes }}>
+          <div class="feature-card__icon">{{ block.settings.icon }}</div>
+          <h3>{{ block.settings.title }}</h3>
+          <p>{{ block.settings.text }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Características",
+  "settings": [
+    {
+      "type": "text",
+      "id": "badge",
+      "label": "Etiqueta",
+      "default": "Características principales"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Título",
+      "default": "Tecnología que protege en todo momento"
+    },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Subtítulo",
+      "default": "Arquitectura inteligente, alertas instantáneas y soporte global para mantener tu vehículo seguro."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Característica",
+      "settings": [
+        {
+          "type": "text",
+          "id": "icon",
+          "label": "Icono",
+          "default": "🛡️"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Título",
+          "default": "Seguridad total"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Descripción",
+          "default": "Protección avanzada con análisis de comportamiento y alertas inmediatas."
+        }
+      ]
+    }
+  ],
+  "max_blocks": 6,
+  "presets": [
+    {
+      "name": "Características",
+      "blocks": [
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "🤖",
+            "title": "IA inteligente",
+            "text": "Algoritmos que aprenden tu conducción para anticipar riesgos."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "🔒",
+            "title": "Seguridad total",
+            "text": "Protección en tiempo real contra robos, accidentes y eventos críticos."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "📱",
+            "title": "App móvil",
+            "text": "Monitoreo desde iOS y Android con notificaciones instantáneas."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "⚡",
+            "title": "Instalación fácil",
+            "text": "Plug and play sin modificaciones mecánicas complejas."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "🌍",
+            "title": "Cobertura global",
+            "text": "Funciona en más de 150 países con soporte multilingüe."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "💬",
+            "title": "Soporte 24/7",
+            "text": "Equipo especializado disponible en cualquier momento."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
