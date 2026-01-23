@@ -1,0 +1,44 @@
+<section class="section" data-animate>
+  <div class="container">
+    <div class="section-title section-title--center">
+      <div>
+        <span class="badge">{{ section.settings.badge }}</span>
+        <h2>{{ section.settings.heading }}</h2>
+        <p class="section-subtitle">{{ section.settings.subheading }}</p>
+      </div>
+    </div>
+    <div class="before-after">
+      {% for block in section.blocks %}
+        {% if block.settings.image != blank %}
+          <div class="before-after__item" {{ block.shopify_attributes }}>
+            <img src="{{ block.settings.image | image_url: width: 900 }}" alt="{{ block.settings.alt | escape }}">
+            <p class="u-text-center u-mt-1">{{ block.settings.caption }}</p>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Antes y después",
+  "settings": [
+    {"type": "text", "id": "badge", "label": "Etiqueta", "default": "Resultados"},
+    {"type": "text", "id": "heading", "label": "Título", "default": "Antes y después"},
+    {"type": "textarea", "id": "subheading", "label": "Subtítulo", "default": "Comparativa visual del producto."}
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Imagen",
+      "settings": [
+        {"type": "image_picker", "id": "image", "label": "Imagen"},
+        {"type": "text", "id": "alt", "label": "Alt", "default": "Comparativa"},
+        {"type": "text", "id": "caption", "label": "Leyenda", "default": "Antes"}
+      ]
+    }
+  ],
+  "presets": [{"name": "Antes y después"}]
+}
+{% endschema %}
