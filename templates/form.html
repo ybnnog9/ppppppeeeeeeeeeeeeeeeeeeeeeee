@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block title %}{{ "Editar lead" if lead else "Nuevo lead" }}{% endblock %}
+
+{% block content %}
+  <section class="form-section">
+    <div class="card">
+      <h2>{{ "Editar lead" if lead else "Nuevo lead" }}</h2>
+      <p class="subtitle">Completa los datos para darle seguimiento comercial.</p>
+      <form method="post">
+        <div class="field-group">
+          <label for="company_name">Empresa</label>
+          <input id="company_name" name="company_name" required value="{{ lead['company_name'] if lead else '' }}">
+        </div>
+        <div class="field-row">
+          <div class="field-group">
+            <label for="contact_name">Contacto</label>
+            <input id="contact_name" name="contact_name" required value="{{ lead['contact_name'] if lead else '' }}">
+          </div>
+          <div class="field-group">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" required value="{{ lead['email'] if lead else '' }}">
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field-group">
+            <label for="phone">Teléfono</label>
+            <input id="phone" name="phone" value="{{ lead['phone'] if lead else '' }}">
+          </div>
+          <div class="field-group">
+            <label for="status">Estado</label>
+            <select id="status" name="status">
+              {% set current_status = lead['status'] if lead else 'Nuevo' %}
+              {% for option in ['Nuevo', 'Calificado', 'En negociación', 'Cerrado'] %}
+                <option value="{{ option }}" {% if option == current_status %}selected{% endif %}>{{ option }}</option>
+              {% endfor %}
+            </select>
+          </div>
+        </div>
+        <div class="field-group">
+          <label for="notes">Notas</label>
+          <textarea id="notes" name="notes" rows="4">{{ lead['notes'] if lead else '' }}</textarea>
+        </div>
+        <div class="form-actions">
+          <a class="link" href="{{ url_for('index') }}">Cancelar</a>
+          <button class="button" type="submit">Guardar lead</button>
+        </div>
+      </form>
+    </div>
+  </section>
+{% endblock %}
