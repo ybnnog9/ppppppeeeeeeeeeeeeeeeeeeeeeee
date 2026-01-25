@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Panel de Ventas{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <p class="eyebrow">Pipeline comercial</p>
+      <h1>Panel de Ventas B2B</h1>
+      <p class="subtitle">Centraliza tus leads, organiza tu equipo y acelera cierres con un panel simple.</p>
+    </div>
+    <nav>
+      <a class="button" href="{{ url_for('create_lead') }}">Nuevo lead</a>
+    </nav>
+  </header>
+
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="site-footer">
+    <p>Diseñado para equipos comerciales que necesitan visibilidad rápida.</p>
+  </footer>
+</body>
+</html>
