@@ -1,0 +1,146 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum AppointmentStatus {
+  pending
+  confirmed
+  cancelled
+  no_show
+}
+
+enum ConversationState {
+  idle
+  menu
+  collecting_service
+  collecting_date
+  collecting_time_pref
+  collecting_name
+  proposing_slots
+  awaiting_confirmation
+  handoff
+}
+
+enum CalendarProvider {
+  google
+  calendly
+}
+
+model Tenant {
+  id                 String   @id @default(cuid())
+  name               String
+  timezone           String   @default("America/Mexico_City")
+  whatsappNumberId   String
+  whatsappToken      String
+  whatsappVerifyToken String
+  calendarProvider   CalendarProvider @default(google)
+  calendlyLink       String?
+  welcomeMessage     String   @default("¡Hola! Soy AutoAgenda. ¿En qué puedo ayudarte?")
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+
+  services      Service[]
+  users         User[]
+  contacts      Contact[]
+  conversations Conversation[]
+  appointments  Appointment[]
+  messageTemplates MessageTemplate[]
+  oauthTokens   OAuthToken[]
+}
+
+model User {
+  id        String   @id @default(cuid())
+  tenantId  String
+  email     String   @unique
+  password  String
+  role      String   @default("admin")
+  createdAt DateTime @default(now())
+
+  tenant Tenant @relation(fields: [tenantId], references: [id])
+}
+
+model Service {
+  id        String   @id @default(cuid())
+  tenantId  String
+  name      String
+  durationMins Int
+  price     Int?
+  bufferMins Int @default(0)
+  createdAt DateTime @default(now())
+
+  tenant Tenant @relation(fields: [tenantId], references: [id])
+}
+
+model Contact {
+  id        String   @id @default(cuid())
+  tenantId  String
+  phone     String
+  name      String?
+  optedOut  Boolean  @default(false)
+  lastInteraction DateTime?
+
+  tenant Tenant @relation(fields: [tenantId], references: [id])
+  appointments Appointment[]
+
+  @@unique([phone, tenantId])
+}
+
+model Conversation {
+  id        String   @id @default(cuid())
+  tenantId  String
+  contactId String
+  state     ConversationState @default(idle)
+  context   Json     @default("{}")
+  updatedAt DateTime @updatedAt
+
+  tenant Tenant @relation(fields: [tenantId], references: [id])
+  contact Contact @relation(fields: [contactId], references: [id])
+
+  @@unique([contactId, tenantId])
+}
+
+model Appointment {
+  id          String   @id @default(cuid())
+  tenantId    String
+  contactId   String
+  serviceId   String
+  startsAt    DateTime
+  endsAt      DateTime
+  status      AppointmentStatus @default(pending)
+  calendarEventId String?
+  createdAt   DateTime @default(now())
+
+  tenant Tenant @relation(fields: [tenantId], references: [id])
+  contact Contact @relation(fields: [contactId], references: [id])
+  service Service @relation(fields: [serviceId], references: [id])
+}
+
+model MessageTemplate {
+  id        String   @id @default(cuid())
+  tenantId  String
+  name      String
+  language  String   @default("es")
+  body      String
+  createdAt DateTime @default(now())
+
+  tenant Tenant @relation(fields: [tenantId], references: [id])
+}
+
+model OAuthToken {
+  id        String   @id @default(cuid())
+  tenantId  String
+  provider  String
+  accessToken  String
+  refreshToken String
+  expiry       DateTime
+  createdAt DateTime @default(now())
+
+  tenant Tenant @relation(fields: [tenantId], references: [id])
+
+  @@unique([tenantId, provider])
+}
