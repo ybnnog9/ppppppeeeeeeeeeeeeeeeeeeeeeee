@@ -90,6 +90,27 @@ Disponible en `http://localhost:3000`. Incluye:
 - Resumen de citas y leads.
 - Guía de configuración rápida.
 
+## ¿Puede entregarse como .exe?
+Sí, pero **no viene precompilado** en este repo porque el MVP es una app web (backend + frontend). Para Windows puedes empaquetar el backend con `pkg` y distribuir el frontend como build de Next.js. Ejemplo rápido:
+
+```bash
+cd backend
+npm install
+npm run build
+npx pkg . --targets node18-win-x64 --out-path dist-exe
+```
+
+Luego compila el frontend:
+
+```bash
+cd frontend
+npm install
+npm run build
+npm run start
+```
+
+> Para un instalador “todo‑en‑uno” (backend + frontend), lo recomendado es usar un empaquetador tipo Electron/Tauri o un instalador que ejecute ambos procesos. En este MVP se prioriza ejecución vía Docker o scripts de Node.
+
 ## Endpoints principales
 - `POST /api/auth/register`
 - `POST /api/auth/login`
