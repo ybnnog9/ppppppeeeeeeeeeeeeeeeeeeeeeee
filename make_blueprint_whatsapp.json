@@ -1,0 +1,229 @@
+{
+  "name": "Recepcionista IA WhatsApp + Google Calendar",
+  "description": "Blueprint de Make para automatizar atención por WhatsApp con IA, agenda, reprogramación, cancelación y recordatorios sincronizados con Google Calendar.",
+  "version": 1,
+  "variables": {
+    "BUSINESS_NAME": "Tu negocio",
+    "BUSINESS_TIMEZONE": "America/Mexico_City",
+    "CALENDAR_ID": "primary",
+    "MIN_APPOINTMENT_DURATION_MIN": 30,
+    "WORKING_HOURS": {
+      "mon": [{ "start": "09:00", "end": "18:00" }],
+      "tue": [{ "start": "09:00", "end": "18:00" }],
+      "wed": [{ "start": "09:00", "end": "18:00" }],
+      "thu": [{ "start": "09:00", "end": "18:00" }],
+      "fri": [{ "start": "09:00", "end": "18:00" }]
+    },
+    "POLICY_CANCELLATION_HOURS": 4
+  },
+  "flow": [
+    {
+      "id": 1,
+      "module": "webhooks:customWebhook",
+      "version": 1,
+      "name": "WhatsApp inbound webhook",
+      "parameters": {
+        "hook": "whatsapp_inbound"
+      },
+      "mapper": {},
+      "metadata": { "x": 0, "y": 0 },
+      "next": [2]
+    },
+    {
+      "id": 2,
+      "module": "datastore:getRecord",
+      "version": 1,
+      "name": "Get client context",
+      "parameters": {
+        "datastore": "whatsapp_clients",
+        "key": "{{1.from}}"
+      },
+      "mapper": {},
+      "metadata": { "x": 300, "y": 0 },
+      "next": [3]
+    },
+    {
+      "id": 3,
+      "module": "openai:chatCompletion",
+      "version": 1,
+      "name": "AI receptionist",
+      "parameters": {
+        "model": "gpt-4o-mini",
+        "temperature": 0.3
+      },
+      "mapper": {
+        "system": "Eres recepcionista de {{variables.BUSINESS_NAME}}. Detecta intención (agendar, reprogramar, cancelar, faq, handoff). Responde SOLO en JSON.",
+        "user": "Mensaje: {{1.message}}\nContexto: {{2.record}}"
+      },
+      "metadata": { "x": 600, "y": 0 },
+      "next": [4]
+    },
+    {
+      "id": 4,
+      "module": "tools:router",
+      "version": 1,
+      "name": "Intent router",
+      "metadata": { "x": 900, "y": 0 },
+      "routes": [
+        { "label": "schedule", "next": 10 },
+        { "label": "reschedule", "next": 20 },
+        { "label": "cancel", "next": 30 },
+        { "label": "faq", "next": 40 },
+        { "label": "handoff", "next": 50 }
+      ]
+    },
+    {
+      "id": 10,
+      "module": "googlecalendar:searchEvents",
+      "version": 1,
+      "name": "Check availability",
+      "parameters": {
+        "calendarId": "{{variables.CALENDAR_ID}}"
+      },
+      "mapper": {
+        "timeMin": "{{now}}",
+        "timeMax": "{{addhours(now; 168)}}"
+      },
+      "metadata": { "x": 1200, "y": -200 },
+      "next": [11]
+    },
+    {
+      "id": 11,
+      "module": "googlecalendar:createEvent",
+      "version": 1,
+      "name": "Create event",
+      "parameters": {
+        "calendarId": "{{variables.CALENDAR_ID}}"
+      },
+      "mapper": {
+        "summary": "{{3.response.service}} - {{3.response.client_name}}",
+        "start": "{{3.response.datetime_preference}}",
+        "end": "{{addminutes(3.response.datetime_preference; variables.MIN_APPOINTMENT_DURATION_MIN)}}",
+        "description": "WhatsApp: {{1.from}}\nNotas: {{3.response.notes}}"
+      },
+      "metadata": { "x": 1500, "y": -200 },
+      "next": [12]
+    },
+    {
+      "id": 12,
+      "module": "whatsapp:sendMessage",
+      "version": 1,
+      "name": "Send confirmation",
+      "parameters": {
+        "to": "{{1.from}}"
+      },
+      "mapper": {
+        "message": "¡Listo, {{3.response.client_name}}! Tu cita para {{3.response.service}} quedó agendada el {{formatDate(3.response.datetime_preference; 'YYYY-MM-DD')}} a las {{formatDate(3.response.datetime_preference; 'HH:mm')}}."
+      },
+      "metadata": { "x": 1800, "y": -200 }
+    },
+    {
+      "id": 20,
+      "module": "googlecalendar:searchEvents",
+      "version": 1,
+      "name": "Find event to reschedule",
+      "parameters": {
+        "calendarId": "{{variables.CALENDAR_ID}}"
+      },
+      "mapper": {
+        "q": "{{1.from}}"
+      },
+      "metadata": { "x": 1200, "y": 0 },
+      "next": [21]
+    },
+    {
+      "id": 21,
+      "module": "googlecalendar:updateEvent",
+      "version": 1,
+      "name": "Update event",
+      "parameters": {
+        "calendarId": "{{variables.CALENDAR_ID}}",
+        "eventId": "{{20.items[1].id}}"
+      },
+      "mapper": {
+        "start": "{{3.response.datetime_preference}}",
+        "end": "{{addminutes(3.response.datetime_preference; variables.MIN_APPOINTMENT_DURATION_MIN)}}"
+      },
+      "metadata": { "x": 1500, "y": 0 },
+      "next": [22]
+    },
+    {
+      "id": 22,
+      "module": "whatsapp:sendMessage",
+      "version": 1,
+      "name": "Send reschedule confirmation",
+      "parameters": {
+        "to": "{{1.from}}"
+      },
+      "mapper": {
+        "message": "Perfecto, {{3.response.client_name}}. Tu cita se reprogramó para el {{formatDate(3.response.datetime_preference; 'YYYY-MM-DD')}} a las {{formatDate(3.response.datetime_preference; 'HH:mm')}}."
+      },
+      "metadata": { "x": 1800, "y": 0 }
+    },
+    {
+      "id": 30,
+      "module": "googlecalendar:searchEvents",
+      "version": 1,
+      "name": "Find event to cancel",
+      "parameters": {
+        "calendarId": "{{variables.CALENDAR_ID}}"
+      },
+      "mapper": {
+        "q": "{{1.from}}"
+      },
+      "metadata": { "x": 1200, "y": 200 },
+      "next": [31]
+    },
+    {
+      "id": 31,
+      "module": "googlecalendar:deleteEvent",
+      "version": 1,
+      "name": "Cancel event",
+      "parameters": {
+        "calendarId": "{{variables.CALENDAR_ID}}",
+        "eventId": "{{30.items[1].id}}"
+      },
+      "metadata": { "x": 1500, "y": 200 },
+      "next": [32]
+    },
+    {
+      "id": 32,
+      "module": "whatsapp:sendMessage",
+      "version": 1,
+      "name": "Send cancellation confirmation",
+      "parameters": {
+        "to": "{{1.from}}"
+      },
+      "mapper": {
+        "message": "Tu cita fue cancelada. Si deseas re-agendar, dime una fecha y horario."
+      },
+      "metadata": { "x": 1800, "y": 200 }
+    },
+    {
+      "id": 40,
+      "module": "whatsapp:sendMessage",
+      "version": 1,
+      "name": "Send FAQ response",
+      "parameters": {
+        "to": "{{1.from}}"
+      },
+      "mapper": {
+        "message": "Gracias por escribir a {{variables.BUSINESS_NAME}}. ¿En qué puedo ayudarte?"
+      },
+      "metadata": { "x": 1200, "y": 400 }
+    },
+    {
+      "id": 50,
+      "module": "whatsapp:sendMessage",
+      "version": 1,
+      "name": "Handoff to human",
+      "parameters": {
+        "to": "{{1.from}}"
+      },
+      "mapper": {
+        "message": "Te conecto con un asesor humano en unos minutos."
+      },
+      "metadata": { "x": 1200, "y": 600 }
+    }
+  ]
+}
